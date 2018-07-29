@@ -1,0 +1,35 @@
+<style type="text/css">
+ .scrollable-menu 
+{
+  height: auto;
+  max-height: 150px;
+  overflow-x: hidden;
+}
+
+.scrollable-menu::-webkit-scrollbar 
+{
+  -webkit-appearance: none;
+  width: 5px;        
+}    
+
+.scrollable-menu::-webkit-scrollbar-thumb 
+{
+  border-radius: 3px;
+  background-color: rgba(0, 0, 0, 0.52);
+  -webkit-box-shadow: 0 0 1px rgba(255,255,255,.75);        
+} 
+</style>
+
+<label style="margin-left: 12px; font-size:1.8rem"><b>Monitor Bluethooth<b></label>
+<div class="row">
+ <div class="col s12">
+  <div id="txtMonitor" class="scrollable-menu" style="height: 200px;background: #FFF;border-radius: 5px; padding-left: 10px;padding-right: 10px;"></div>
+ </div>
+</div>
+
+<div class="row">
+ <div class="col s12">
+  <input type="text" class="input_text" style="width: 80%" placeholder="Enviar Información" id="txtSendData">
+  <button class="btn btn-primary" id="btnsend" onclick="Main.sendData()"><i class="material-icons">send</i></button>
+ </div>
+</div>
