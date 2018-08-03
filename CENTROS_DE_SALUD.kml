@@ -1,0 +1,3698 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
+<Document>
+	<name>CENTROS_DE_SALUD.kml</name>
+	<Style id="sn_pink-blank">
+		<IconStyle>
+			<color>ff0000ff</color>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/paddle/pink-blank.png</href>
+			</Icon>
+			<hotSpot x="32" y="1" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<ListStyle>
+			<ItemIcon>
+				<href>http://maps.google.com/mapfiles/kml/paddle/pink-blank-lv.png</href>
+			</ItemIcon>
+		</ListStyle>
+	</Style>
+	<Style id="listing_A10">
+		<IconStyle>
+			<Icon>
+				<href>https://www.google.com/mapfiles/kml/paddle/A.png</href>
+			</Icon>
+		</IconStyle>
+		<BalloonStyle>
+			<text>$[description]</text>
+		</BalloonStyle>
+		<LineStyle>
+			<color>00ffffff</color>
+		</LineStyle>
+	</Style>
+	<Style id="icon-1899-DB4436-highlight1">
+		<IconStyle>
+			<color>ff3644db</color>
+			<Icon>
+				<href>http://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+			</Icon>
+			<hotSpot x="32" y="64" xunits="pixels" yunits="insetPixels"/>
+		</IconStyle>
+	</Style>
+	<StyleMap id="icon-1899-DB44361">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#icon-1899-DB4436-normal00</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#icon-1899-DB4436-highlight0</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="icon-1899-DB4436-normal">
+		<IconStyle>
+			<color>ff3644db</color>
+			<Icon>
+				<href>http://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+			</Icon>
+			<hotSpot x="32" y="64" xunits="pixels" yunits="insetPixels"/>
+		</IconStyle>
+		<LabelStyle>
+			<scale>0</scale>
+		</LabelStyle>
+	</Style>
+	<StyleMap id="icon-1899-DB4436">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#icon-1899-DB4436-normal01</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#icon-1899-DB4436-highlight00</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="msn_A">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_A</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_A</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="icon-1899-DB443600">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#icon-1899-DB4436-normal0</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#icon-1899-DB4436-highlight1</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="listing_A3">
+		<IconStyle>
+			<Icon>
+				<href>https://www.google.com/mapfiles/kml/paddle/A.png</href>
+			</Icon>
+		</IconStyle>
+		<BalloonStyle>
+			<text>$[description]</text>
+		</BalloonStyle>
+		<LineStyle>
+			<color>00ffffff</color>
+		</LineStyle>
+	</Style>
+	<Style id="icon-1899-DB4436-highlight">
+		<IconStyle>
+			<color>ff3644db</color>
+			<Icon>
+				<href>http://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+			</Icon>
+			<hotSpot x="32" y="64" xunits="pixels" yunits="insetPixels"/>
+		</IconStyle>
+	</Style>
+	<StyleMap id="msn_pink-blank">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_pink-blank</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_pink-blank</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="listing_B">
+		<IconStyle>
+			<Icon>
+				<href>https://www.google.com/mapfiles/kml/paddle/B.png</href>
+			</Icon>
+		</IconStyle>
+		<BalloonStyle>
+			<text>$[description]</text>
+		</BalloonStyle>
+		<LineStyle>
+			<color>00ffffff</color>
+		</LineStyle>
+	</Style>
+	<Style id="icon-1899-DB4436-highlight0">
+		<IconStyle>
+			<color>ff3644db</color>
+			<Icon>
+				<href>http://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+			</Icon>
+			<hotSpot x="32" y="64" xunits="pixels" yunits="insetPixels"/>
+		</IconStyle>
+	</Style>
+	<Style id="listing_B1">
+		<IconStyle>
+			<Icon>
+				<href>https://www.google.com/mapfiles/kml/paddle/B.png</href>
+			</Icon>
+		</IconStyle>
+		<BalloonStyle>
+			<text>$[description]</text>
+		</BalloonStyle>
+		<LineStyle>
+			<color>00ffffff</color>
+		</LineStyle>
+	</Style>
+	<StyleMap id="icon-1899-DB44360">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#icon-1899-DB4436-normal</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#icon-1899-DB4436-highlight</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="listing_A9">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#listing_A2</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#listing_A3</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="listing_A2">
+		<IconStyle>
+			<Icon>
+				<href>https://www.google.com/mapfiles/kml/paddle/A.png</href>
+			</Icon>
+		</IconStyle>
+		<BalloonStyle>
+			<text>$[description]</text>
+		</BalloonStyle>
+		<LineStyle>
+			<color>00ffffff</color>
+		</LineStyle>
+	</Style>
+	<Style id="icon-1899-DB4436-highlight00">
+		<IconStyle>
+			<color>ff3644db</color>
+			<Icon>
+				<href>http://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+			</Icon>
+			<hotSpot x="32" y="64" xunits="pixels" yunits="insetPixels"/>
+		</IconStyle>
+	</Style>
+	<Style id="icon-1899-DB4436-normal00">
+		<IconStyle>
+			<color>ff3644db</color>
+			<Icon>
+				<href>http://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+			</Icon>
+			<hotSpot x="32" y="64" xunits="pixels" yunits="insetPixels"/>
+		</IconStyle>
+		<LabelStyle>
+			<scale>0</scale>
+		</LabelStyle>
+	</Style>
+	<Style id="listing_A8">
+		<IconStyle>
+			<Icon>
+				<href>https://www.google.com/mapfiles/kml/paddle/A.png</href>
+			</Icon>
+		</IconStyle>
+		<BalloonStyle>
+			<text>$[description]</text>
+		</BalloonStyle>
+		<LineStyle>
+			<color>00ffffff</color>
+		</LineStyle>
+	</Style>
+	<Style id="sh_pink-blank">
+		<IconStyle>
+			<color>ff0000ff</color>
+			<scale>1.3</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/paddle/pink-blank.png</href>
+			</Icon>
+			<hotSpot x="32" y="1" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<ListStyle>
+			<ItemIcon>
+				<href>http://maps.google.com/mapfiles/kml/paddle/pink-blank-lv.png</href>
+			</ItemIcon>
+		</ListStyle>
+	</Style>
+	<Style id="listing_A1">
+		<IconStyle>
+			<Icon>
+				<href>https://www.google.com/mapfiles/kml/paddle/A.png</href>
+			</Icon>
+		</IconStyle>
+		<BalloonStyle>
+			<text>$[description]</text>
+		</BalloonStyle>
+		<LineStyle>
+			<color>00ffffff</color>
+		</LineStyle>
+	</Style>
+	<Style id="sh_A">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/paddle/A.png</href>
+			</Icon>
+			<hotSpot x="32" y="1" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<ListStyle>
+			<ItemIcon>
+				<href>http://maps.google.com/mapfiles/kml/paddle/A-lv.png</href>
+			</ItemIcon>
+		</ListStyle>
+	</Style>
+	<StyleMap id="listing_A7">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#listing_A</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#listing_A8</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="listing_B0">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#listing_B</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#listing_B1</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="icon-1899-DB4436-normal01">
+		<IconStyle>
+			<color>ff3644db</color>
+			<Icon>
+				<href>http://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+			</Icon>
+			<hotSpot x="32" y="64" xunits="pixels" yunits="insetPixels"/>
+		</IconStyle>
+		<LabelStyle>
+			<scale>0</scale>
+		</LabelStyle>
+	</Style>
+	<Style id="listing_A6">
+		<IconStyle>
+			<Icon>
+				<href>https://www.google.com/mapfiles/kml/paddle/A.png</href>
+			</Icon>
+		</IconStyle>
+		<BalloonStyle>
+			<text>$[description]</text>
+		</BalloonStyle>
+		<LineStyle>
+			<color>00ffffff</color>
+		</LineStyle>
+	</Style>
+	<StyleMap id="listing_A0">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#listing_A6</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#listing_A10</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="sn_A">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/paddle/A.png</href>
+			</Icon>
+			<hotSpot x="32" y="1" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LabelStyle>
+			<scale>0</scale>
+		</LabelStyle>
+		<ListStyle>
+			<ItemIcon>
+				<href>http://maps.google.com/mapfiles/kml/paddle/A-lv.png</href>
+			</ItemIcon>
+		</ListStyle>
+	</Style>
+	<Style id="listing_A4">
+		<IconStyle>
+			<Icon>
+				<href>https://www.google.com/mapfiles/kml/paddle/A.png</href>
+			</Icon>
+		</IconStyle>
+		<BalloonStyle>
+			<text>$[description]</text>
+		</BalloonStyle>
+		<LineStyle>
+			<color>00ffffff</color>
+		</LineStyle>
+	</Style>
+	<StyleMap id="listing_A5">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#listing_A1</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#listing_A4</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="icon-1899-DB4436-normal0">
+		<IconStyle>
+			<color>ff3644db</color>
+			<Icon>
+				<href>http://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+			</Icon>
+			<hotSpot x="32" y="64" xunits="pixels" yunits="insetPixels"/>
+		</IconStyle>
+		<LabelStyle>
+			<scale>0</scale>
+		</LabelStyle>
+	</Style>
+	<Style id="listing_A">
+		<IconStyle>
+			<Icon>
+				<href>https://www.google.com/mapfiles/kml/paddle/A.png</href>
+			</Icon>
+		</IconStyle>
+		<BalloonStyle>
+			<text>$[description]</text>
+		</BalloonStyle>
+		<LineStyle>
+			<color>00ffffff</color>
+		</LineStyle>
+	</Style>
+	<Folder>
+		<name>CENTROS_DE_SALUD</name>
+		<open>1</open>
+		<Folder>
+			<name>JURISDICCION SANITARIA 1</name>
+			<Placemark>
+				<name>CLINICA DE ATENCION INTEGRAL TIERRA Y LIBERTAD</name>
+				<description><![CDATA[<strong>DIRECCION:</strong> ALMAZAN Y RODRIGO GOMEZ
+COL. PREDIO FRANCISCO I. MADERO
+<br>
+<strong>RESPONSABLE:</strong> DR. CESAR GERARDO DE LA ROSA FERNANDEZ
+<br>
+<strong>TEL:</strong> 83712464 Y 83719360
+ <br>
+<strong>J.S.</strong> 1]]></description>
+				<styleUrl>#icon-1899-DB4436</styleUrl>
+				<ExtendedData>
+					<Data name="descripción">
+					</Data>
+					<Data name="NAME">
+						<value>50</value>
+					</Data>
+					<Data name="LAYER">
+						<value>CLÍNICA DE ATENCIÓN INTEGRAL TIERRA Y LIBERTAD ALMAZAN Y RODRIGO GOMEZ COL. FCO. I. MADERO MONTERREY (81) 8371-2464 CENTRO DE SALUD</value>
+					</Data>
+					<Data name="NUM">
+						<value>102</value>
+					</Data>
+				</ExtendedData>
+				<Point>
+					<coordinates>-100.342054,25.740418,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>CENTRO COMUNITARIO DE SALUD MENTAL TIERRA Y LIBERTAD</name>
+				<description><![CDATA[<strong>DIRECCION:</strong> 25 DE ABRIL Y EMILIANO ZAPATA
+COL. TIERRA Y LIBERTAD
+<br>
+<strong>RESPONSABLE:</strong> DRA. DIANA LAURA JAUREGUI ESQUIVEL 
+<br>
+<strong>TEL:</strong> 83010651 Y 83012568
+ <br>
+<strong>J.S.</strong> 1]]></description>
+				<styleUrl>#icon-1899-DB4436</styleUrl>
+				<ExtendedData>
+					<Data name="descripción">
+					</Data>
+					<Data name="NAME">
+						<value>49</value>
+					</Data>
+					<Data name="LAYER">
+						<value>CENTRO COMUNITARIO DE SALUD MENTAL TIERRA Y LIBERTAD FRONTERA Y 25 DE ABRIL MONTERREY (81) 8376-6081 CENTRO DE SALUD</value>
+					</Data>
+					<Data name="NUM">
+						<value>101</value>
+					</Data>
+				</ExtendedData>
+				<Point>
+					<coordinates>-100.337869,25.736422,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>C.S.U. TALLERES</name>
+				<description><![CDATA[<strong>DIRECCION:</strong> JUSTO CORRO 2185
+COL. TALLERES 
+<br>
+<strong>RESPONSABLE:</strong> DR. EDDY BALAMM MUÑOZ ORPINEDA
+<br>
+<strong>TEL:</strong> 81234089
+ <br>
+<strong>J.S.</strong> 1]]></description>
+				<styleUrl>#icon-1899-DB4436</styleUrl>
+				<ExtendedData>
+					<Data name="descripción">
+					</Data>
+					<Data name="NAME">
+						<value>46</value>
+					</Data>
+					<Data name="LAYER">
+						<value>C.S.U. TALLERES JUSTO CORRO NO. 2185 MONTERREY CENTRO DE SALUD</value>
+					</Data>
+					<Data name="NUM">
+						<value>98</value>
+					</Data>
+				</ExtendedData>
+				<Point>
+					<coordinates>-100.332883,25.694204,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>C.S.U. SOLIDARIDAD</name>
+				<description><![CDATA[<strong>DIRECCION:</strong> AVE. DEL CENTRO NORTE 606
+COL. BARRIO SANTA ISABEL
+<br>
+<strong>RESPONSABLE:</strong> DRA. LIDIA MIRANDA MARTINEZ
+<br>
+<strong>TEL:</strong> 11680736
+ <br>
+<strong>J.S.</strong> 1]]></description>
+				<styleUrl>#icon-1899-DB4436</styleUrl>
+				<ExtendedData>
+					<Data name="descripción">
+					</Data>
+					<Data name="NAME">
+						<value>45</value>
+					</Data>
+					<Data name="LAYER">
+						<value>C.S.U. SOLIDARIDAD AZUFRE NUMERO 102 (DEL CENTRO) MONTERREY CENTRO DE SALUD</value>
+					</Data>
+					<Data name="NUM">
+						<value>97</value>
+					</Data>
+				</ExtendedData>
+				<Point>
+					<coordinates>-100.395901,25.774873,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>C.S.U. SANTA CRUZ</name>
+				<description><![CDATA[<strong>DIRECCION:</strong> ZEMPOALA 6810ESQUINA CON SELVAS
+COL. SANTA CRUZ 
+<br>
+<strong>RESPONSABLE:</strong> DR. GERARDO RODRIGUEZ MEDRANO 
+<br>
+<strong>TEL:</strong> 83706216 Y 83116086
+ <br>
+<strong>J.S.</strong> 1]]></description>
+				<styleUrl>#icon-1899-DB44361</styleUrl>
+				<ExtendedData>
+					<Data name="descripción">
+					</Data>
+					<Data name="NAME">
+						<value>43</value>
+					</Data>
+					<Data name="LAYER">
+						<value>C.S.U. SANTA CRUZ ZEMPOALA CRUZ CON SELVAS MONTERREY (81) 8370-6216 CENTRO DE SALUD</value>
+					</Data>
+					<Data name="NUM">
+						<value>95</value>
+					</Data>
+				</ExtendedData>
+				<Point>
+					<coordinates>-100.352289,25.732411,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>SAN BERNABE XI</name>
+				<description><![CDATA[<strong>DIRECCION:</strong> BREZO Y BASAMENTO
+COL. FOMERREY 114
+<br>
+<strong>RESPONSABLE:</strong> DR. JOSE LUIS GUAJARDO GARZA 
+<br>
+<strong>TEL:</strong> 11801067
+ <br>
+<strong>J.S.</strong> 1]]></description>
+				<styleUrl>#icon-1899-DB44361</styleUrl>
+				<ExtendedData>
+					<Data name="descripción">
+					</Data>
+					<Data name="NAME">
+						<value>41</value>
+					</Data>
+					<Data name="LAYER">
+						<value>C.S.U. SAN BERNABE XI BREZO Y BASAMENTO S/N MONTERREY CENTRO DE SALUD</value>
+					</Data>
+					<Data name="NUM">
+						<value>93</value>
+					</Data>
+				</ExtendedData>
+				<Point>
+					<coordinates>-100.379712,25.765678,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>C.S.U. SAN BERNABE</name>
+				<description><![CDATA[<strong>DIRECCION:</strong> AGATA 5860
+COL. SAN BERNABE 
+<br>
+<strong>RESPONSABLE:</strong> DR. GIL CRUZ AVILA 
+<br>
+<strong>TEL:</strong> 83399030 Y 14254036
+ <br>
+<strong>J.S.</strong> 1]]></description>
+				<styleUrl>#icon-1899-DB44361</styleUrl>
+				<ExtendedData>
+					<Data name="descripción">
+					</Data>
+					<Data name="NAME">
+						<value>40</value>
+					</Data>
+					<Data name="LAYER">
+						<value>C.S.U. SAN BERNABE AGATA 5860 COL. SAN BERNABE MONTERREY (81) 8339-9030 CENTRO DE SALUD</value>
+					</Data>
+					<Data name="NUM">
+						<value>91</value>
+					</Data>
+				</ExtendedData>
+				<Point>
+					<coordinates>-100.374033,25.75431,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>C.S.U. RAFAEL BUELNA</name>
+				<description><![CDATA[<strong>DIRECCION:</strong> SALINAS 2690 ESQUINA CON SANTA ROSA 
+COL. RAFAEL BUELNA 
+<br>
+<strong>RESPONSABLE:</strong> DR. ANASTASIO ZACATE PERALTA
+<br>
+<strong>TEL:</strong> 83012795
+ <br>
+<strong>J.S.</strong> 1]]></description>
+				<styleUrl>#icon-1899-DB44361</styleUrl>
+				<ExtendedData>
+					<Data name="descripción">
+					</Data>
+					<Data name="NAME">
+						<value>37</value>
+					</Data>
+					<Data name="LAYER">
+						<value>C.S.U. RAFAEL BUELNA SALINAS S/N MONTERREY CENTRO DE SALUD</value>
+					</Data>
+					<Data name="NUM">
+						<value>89</value>
+					</Data>
+				</ExtendedData>
+				<Point>
+					<coordinates>-100.34035,25.736756,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>C.S.U. PLUTARCO ELIAS CALLES</name>
+				<description><![CDATA[<strong>DIRECCION:</strong> EJERCITO NACIONAL Y CIUDAD GUAYMAS
+COL. PLUTARCO ELIAS CALLES
+<br>
+<strong>RESPONSABLE:</strong> DRA. OFELIA ZUÑIGA HERNANDEZ
+<br>
+<strong>TEL:</strong> 83104848
+ <br>
+<strong>J.S.</strong> 1]]></description>
+				<styleUrl>#icon-1899-DB44361</styleUrl>
+				<ExtendedData>
+					<Data name="descripción">
+					</Data>
+					<Data name="NAME">
+						<value>36</value>
+					</Data>
+					<Data name="LAYER">
+						<value>C.S.U. PLUTARCO ELIAS CALLES EJERCITO NACIONAL Y CIUDAD GUAYMAS MONTERREY (81) 8310-4848 CENTRO DE SALUD</value>
+					</Data>
+					<Data name="NUM">
+						<value>88</value>
+					</Data>
+				</ExtendedData>
+				<Point>
+					<coordinates>-100.38819,25.751104,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>C.S.U. NUEVA MORELOS</name>
+				<description><![CDATA[<strong>DIRECCION:</strong> AVE. NUEVO MEXICO Y FIDEL VELAZQUEZ
+COL. NUEVA MORELOS 
+<br>
+<strong>RESPONSABLE:</strong> DR. ANTONIO AGUIRRE MORALES
+<br>
+<strong>TEL:</strong> 83705426 Y 83715436
+ <br>
+<strong>J.S.</strong> 1]]></description>
+				<styleUrl>#icon-1899-DB44361</styleUrl>
+				<ExtendedData>
+					<Data name="descripción">
+					</Data>
+					<Data name="NAME">
+						<value>34</value>
+					</Data>
+					<Data name="LAYER">
+						<value>C.S.U. NUEVA MORELOS AVE NUEVO MEXICO Y FIDEL VELAZQUEZ MONTERREY (81) 8370-5426 CENTRO DE SALUD</value>
+					</Data>
+					<Data name="NUM">
+						<value>86</value>
+					</Data>
+				</ExtendedData>
+				<Point>
+					<coordinates>-100.347754,25.717278,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>C.S.U. MUNICIPAL</name>
+				<description><![CDATA[<strong>DIRECCION:</strong> DR. EUSEBIO GUAJARDO 9512
+COL. MUNICIPAL 
+<br>
+<strong>RESPONSABLE:</strong> DR. EDUARDO CONCEPCION CUNILL
+<br>
+<strong>TEL:</strong> 83914664 Y 11800600
+ <br>
+<strong>J.S.</strong> 1]]></description>
+				<styleUrl>#icon-1899-DB44361</styleUrl>
+				<ExtendedData>
+					<Data name="descripción">
+					</Data>
+					<Data name="NAME">
+						<value>33</value>
+					</Data>
+					<Data name="LAYER">
+						<value>C.S.U. MUNICIPAL DR. EUSEBIO GUAJARDO 9512 MONTERREY (81) 8391-4664 CENTRO DE SALUD</value>
+					</Data>
+					<Data name="NUM">
+						<value>85</value>
+					</Data>
+				</ExtendedData>
+				<Point>
+					<coordinates>-100.364903,25.764583,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>C.S.U. MADRE SELVA</name>
+				<description><![CDATA[<strong>DIRECCION:</strong> AGUATURNA 5610
+COL. MADRE SELVA 
+<br>
+<strong>RESPONSABLE:</strong> DR. HUGO JAVIER SAENZ DIAZ
+<br>
+<strong>TEL:</strong> 14255262
+ <br>
+<strong>J.S.</strong> 1]]></description>
+				<styleUrl>#icon-1899-DB44361</styleUrl>
+				<ExtendedData>
+					<Data name="descripción">
+					</Data>
+					<Data name="NAME">
+						<value>32</value>
+					</Data>
+					<Data name="LAYER">
+						<value>C.S.U. MADRE SELVA AGUATURNA 5610 COL. MADRESELVA MONTERREY CENTRO DE SALUD</value>
+					</Data>
+					<Data name="NUM">
+						<value>84</value>
+					</Data>
+				</ExtendedData>
+				<Point>
+					<coordinates>-100.376348,25.743338,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>C.S.U. LOS ALTOS</name>
+				<description><![CDATA[<strong>DIRECCION:</strong> GUADALAJARA S/N
+COL. LOS ALTOS
+<br>
+<strong>RESPONSABLE:</strong> DR. OSCAR SALAZAR GONZALEZ
+<br>
+<strong>TEL:</strong> 83116512
+ <br>
+<strong>J.S.</strong> 1]]></description>
+				<styleUrl>#icon-1899-DB44361</styleUrl>
+				<ExtendedData>
+					<Data name="descripción">
+					</Data>
+					<Data name="NAME">
+						<value>30</value>
+					</Data>
+					<Data name="LAYER">
+						<value>C.S.U. LOS ALTOS TEPATITLAN S/N. MONTERREY (81) 8373-9525 CENTRO DE SALUD</value>
+					</Data>
+					<Data name="NUM">
+						<value>82</value>
+					</Data>
+				</ExtendedData>
+				<Point>
+					<coordinates>-100.370182,25.714506,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>C.S.U. LAZARO CARDENAS</name>
+				<description><![CDATA[<strong>DIRECCION:</strong> LINARES 7542 ENTRE SAN BLAS Y 14A AVENIDA
+COL. LAZARO CARDENAS
+<br>
+<strong>RESPONSABLE:</strong> DRA. MARIA MAYELA MARTINEZ
+<br>
+<strong>TEL:</strong> N.T.
+ <br>
+<strong>J.S.</strong> 1]]></description>
+				<styleUrl>#icon-1899-DB44361</styleUrl>
+				<ExtendedData>
+					<Data name="descripción">
+					</Data>
+					<Data name="NAME">
+						<value>28</value>
+					</Data>
+					<Data name="LAYER">
+						<value>C.S.U. LÁZARO CÁRDENAS LINARES CRUZ CON LAS TORRES # 1065 CRUZ CUARZO MONTERREY CENTRO DE SALUD</value>
+					</Data>
+					<Data name="NUM">
+						<value>80</value>
+					</Data>
+				</ExtendedData>
+				<Point>
+					<coordinates>-100.322888,25.746653,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>C.S.U. LA ESPERANZA</name>
+				<description><![CDATA[<strong>DIRECCION:</strong> LA HAYA 5029
+COL. LA ESPERANZA
+<br>
+<strong>RESPONSABLE:</strong> DR. TED ZEGARRA HERNANDEZ
+<br>
+<strong>TEL:</strong> 83000817
+ <br>
+<strong>J.S.</strong> 1]]></description>
+				<styleUrl>#icon-1899-DB44361</styleUrl>
+				<ExtendedData>
+					<Data name="descripción">
+					</Data>
+					<Data name="NAME">
+						<value>26</value>
+					</Data>
+					<Data name="LAYER">
+						<value>C.S.U. LA ESPERANZA LA HAYA 5029 MONTERREY CENTRO DE SALUD</value>
+					</Data>
+					<Data name="NUM">
+						<value>78</value>
+					</Data>
+				</ExtendedData>
+				<Point>
+					<coordinates>-100.376044,25.720665,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>C.S.U. INDUSTRIAL</name>
+				<description><![CDATA[<strong>DIRECCION:</strong> JOSE MA. BOCANEGRA 633
+COL. INDUSTRIAL 
+<br>
+<strong>RESPONSABLE:</strong> DR. ANDRES QUINTANILLA PEDRAZA
+<br>
+<strong>TEL:</strong> 83721939
+ <br>
+<strong>J.S.</strong> 1]]></description>
+				<styleUrl>#icon-1899-DB44361</styleUrl>
+				<ExtendedData>
+					<Data name="descripción">
+					</Data>
+					<Data name="NAME">
+						<value>25</value>
+					</Data>
+					<Data name="LAYER">
+						<value>C.S.U. INDUSTRIAL JOSE MA. BOCANEGRA NO. 633 MONTERREY (81) 8372-1939 CENTRO DE SALUD</value>
+					</Data>
+					<Data name="NUM">
+						<value>77</value>
+					</Data>
+				</ExtendedData>
+				<Point>
+					<coordinates>-100.319072,25.690994,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>C.S.U. GRANJA SANITARIA</name>
+				<description><![CDATA[<strong>DIRECCION:</strong> LUIS ECHEVERRIA 204
+COL. GRANJA SANITARIA 
+<br>
+<strong>RESPONSABLE:</strong> DRA. NORMA GUADALUPE MARTINEZ RODRIGUEZ
+<br>
+<strong>TEL:</strong> 83223967 Y 14251670
+ <br>
+<strong>J.S.</strong> 1]]></description>
+				<styleUrl>#icon-1899-DB44361</styleUrl>
+				<ExtendedData>
+					<Data name="descripción">
+					</Data>
+					<Data name="NAME">
+						<value>24</value>
+					</Data>
+					<Data name="LAYER">
+						<value>C.S.U. GRANJA SANITARIA LUIS ECHEVERRIA Y PEDRO ZORRILLA 352 MONTERREY (81) 8322-3967 CENTRO DE SALUD</value>
+					</Data>
+					<Data name="NUM">
+						<value>76</value>
+					</Data>
+				</ExtendedData>
+				<Point>
+					<coordinates>-100.35244,25.745076,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>C.S.U. GARZA NIETO</name>
+				<description><![CDATA[<strong>DIRECCION:</strong> IGNACIO COMONFORT 1920
+COL. GARZA NIETO 
+<br>
+<strong>RESPONSABLE:</strong> DRA. ROSA MARIA LEDEZMA TORRES
+<br>
+<strong>TEL:</strong> 83515356 Y 83313336
+ <br>
+<strong>J.S.</strong> 1]]></description>
+				<styleUrl>#icon-1899-DB44361</styleUrl>
+				<ExtendedData>
+					<Data name="descripción">
+					</Data>
+					<Data name="NAME">
+						<value>23</value>
+					</Data>
+					<Data name="LAYER">
+						<value>C.S.U. GARZA NIETO IGNACIO COMOFORT 1920 MONTERREY (81) 8351-5356 CENTRO DE SALUD</value>
+					</Data>
+					<Data name="NUM">
+						<value>75</value>
+					</Data>
+				</ExtendedData>
+				<Point>
+					<coordinates>-100.331336,25.703497,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>C.S.U. FRANCISCO VILLA</name>
+				<description><![CDATA[<strong>DIRECCION:</strong> JUAN DOSAL 204
+COL. FRANCISCO VILLA
+<br>
+<strong>RESPONSABLE:</strong> DRA. MAYELA DEL CARMEN GALVAN SANCHEZ
+<br>
+<strong>TEL:</strong> 83224646 Y 8119094578
+ <br>
+<strong>J.S.</strong> 1]]></description>
+				<styleUrl>#icon-1899-DB44361</styleUrl>
+				<ExtendedData>
+					<Data name="descripción">
+					</Data>
+					<Data name="NAME">
+						<value>22</value>
+					</Data>
+					<Data name="LAYER">
+						<value>C.S.U. FRANCISCO VILLA JUAN DOSAL 204 MONTERREY (81) 8322-4646 CENTRO DE SALUD</value>
+					</Data>
+					<Data name="NUM">
+						<value>74</value>
+					</Data>
+				</ExtendedData>
+				<Point>
+					<coordinates>-100.354188,25.753507,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>C.S.U. FOMERREY XXV</name>
+				<description><![CDATA[<strong>DIRECCION:</strong> MARMOL 6415
+COL. FOMERREY 25
+<br>
+<strong>RESPONSABLE:</strong> DR. JOSE LUIS HERNANDEZ ARRIAGA
+<br>
+<strong>TEL:</strong> 14254449
+ <br>
+<strong>J.S.</strong> 1]]></description>
+				<styleUrl>#icon-1899-DB44361</styleUrl>
+				<ExtendedData>
+					<Data name="descripción">
+					</Data>
+					<Data name="NAME">
+						<value>21</value>
+					</Data>
+					<Data name="LAYER">
+						<value>C.S.U. FOMERREY XXV MARMOL 6415 MONTERREY CENTRO DE SALUD</value>
+					</Data>
+					<Data name="NUM">
+						<value>73</value>
+					</Data>
+				</ExtendedData>
+				<Point>
+					<coordinates>-100.381382,25.754462,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>C.S.U. FOMERREY 113</name>
+				<description><![CDATA[<strong>DIRECCION:</strong> SEGADORA 9270
+COL. FOMERREY 113
+<br>
+<strong>RESPONSABLE:</strong> DR. JESUS BENITO CHAPA GRIMALDO
+<br>
+<strong>TEL:</strong> 11801137
+ <br>
+<strong>J.S.</strong> 1]]></description>
+				<styleUrl>#icon-1899-DB44361</styleUrl>
+				<ExtendedData>
+					<Data name="descripción">
+					</Data>
+					<Data name="NAME">
+						<value>18</value>
+					</Data>
+					<Data name="LAYER">
+						<value>C.S.U. FOMERREY 113 BRIDA Y CEGADORA MONTERREY CENTRO DE SALUD</value>
+					</Data>
+					<Data name="NUM">
+						<value>70</value>
+					</Data>
+				</ExtendedData>
+				<Point>
+					<coordinates>-100.375212,25.772983,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>C.S.U. FERROCARRILERA</name>
+				<description><![CDATA[<strong>DIRECCION:</strong> JOAQUIN A. GALLO 2110
+COL. FERROCARRILERA
+<br>
+<strong>RESPONSABLE:</strong> DR. JUAN MANUEL YAÑEZ ESCOBEDO
+<br>
+<strong>TEL:</strong> 83732307
+ <br>
+<strong>J.S.</strong> 1]]></description>
+				<styleUrl>#icon-1899-DB44361</styleUrl>
+				<ExtendedData>
+					<Data name="descripción">
+					</Data>
+					<Data name="NAME">
+						<value>17</value>
+					</Data>
+					<Data name="LAYER">
+						<value>C.S.U. FERROCARRILERA JOAQUIN A GALLO 2110 MONTERREY (81) 8373-2307 CENTRO DE SALUD</value>
+					</Data>
+					<Data name="NUM">
+						<value>69</value>
+					</Data>
+				</ExtendedData>
+				<Point>
+					<coordinates>-100.336047,25.725364,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>C.S.U. EL PORVENIR</name>
+				<description><![CDATA[<strong>DIRECCION:</strong> DELFOS 204 CON ZEUS
+COL. EL PORVENIR
+<br>
+<strong>RESPONSABLE:</strong> DR. HERNAN GUTIERREZ MURO
+<br>
+<strong>TEL:</strong> 11800594
+ <br>
+<strong>J.S.</strong> 1]]></description>
+				<styleUrl>#icon-1899-DB44361</styleUrl>
+				<ExtendedData>
+					<Data name="descripción">
+					</Data>
+					<Data name="NAME">
+						<value>15</value>
+					</Data>
+					<Data name="LAYER">
+						<value>C.S.U. EL PORVENIR DELFOS 1200 MONTERREY (81) 8322-4646 CENTRO DE SALUD</value>
+					</Data>
+					<Data name="NUM">
+						<value>67</value>
+					</Data>
+				</ExtendedData>
+				<Point>
+					<coordinates>-100.365724,25.768065,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>C.S.U. CROC B</name>
+				<description><![CDATA[<strong>DIRECCION:</strong> BOCA CEDILLO 5500 CON EMANCIPACION PROLETARIA
+COL. FOMERREY 24
+<br>
+<strong>RESPONSABLE:</strong> DR. LUIS CARLOS CHAPA GRIMALDO
+<br>
+<strong>TEL:</strong> 13105399
+ <br>
+<strong>J.S.</strong> 1]]></description>
+				<styleUrl>#icon-1899-DB44361</styleUrl>
+				<ExtendedData>
+					<Data name="descripción">
+					</Data>
+					<Data name="NAME">
+						<value>14</value>
+					</Data>
+					<Data name="LAYER">
+						<value>C.S.U. CROC B EMANCIPACION PROLETARIA 1939 MONTERREY CENTRO DE SALUD</value>
+					</Data>
+					<Data name="NUM">
+						<value>66</value>
+					</Data>
+				</ExtendedData>
+				<Point>
+					<coordinates>-100.376612,25.789095,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>C.S.U. CROC A</name>
+				<description><![CDATA[<strong>DIRECCION:</strong> CAMINO REAL 1100
+COL. CROC
+<br>
+<strong>RESPONSABLE:</strong> DR. JUAN FRANCISCO CASTILLO VALADEZ
+<br>
+<strong>TEL:</strong> 11800570
+ <br>
+<strong>J.S.</strong> 1]]></description>
+				<styleUrl>#icon-1899-DB44361</styleUrl>
+				<ExtendedData>
+					<Data name="descripción">
+					</Data>
+					<Data name="NAME">
+						<value>13</value>
+					</Data>
+					<Data name="LAYER">
+						<value>C.S.U. CROC A CAMINO REAL 1100 MONTERREY CENTRO DE SALUD</value>
+					</Data>
+					<Data name="NUM">
+						<value>65</value>
+					</Data>
+				</ExtendedData>
+				<Point>
+					<coordinates>-100.370562,25.772933,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>C.S.U. CONSTITUYENTES DEL 57</name>
+				<description><![CDATA[<strong>DIRECCION:</strong> MANUEL Z. GOMEZ M4 L5
+COL. CONSTITUYENTES DEL 57
+<br>
+<strong>RESPONSABLE:</strong> DRA. NORMA LETICIA GONZALEZ URBANO
+<br>
+<strong>TEL:</strong> 12320969
+ <br>
+<strong>J.S.</strong> 1]]></description>
+				<styleUrl>#icon-1899-DB44361</styleUrl>
+				<ExtendedData>
+					<Data name="descripción">
+					</Data>
+					<Data name="NAME">
+						<value>12</value>
+					</Data>
+					<Data name="LAYER">
+						<value>C.S.U. CONTITUYENTES DEL 57 MANUEL Z. GOMEZ M4 L5 MONTERREY CENTRO DE SALUD</value>
+					</Data>
+					<Data name="NUM">
+						<value>64</value>
+					</Data>
+				</ExtendedData>
+				<Point>
+					<coordinates>-100.326748,25.727795,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>C.S.U. AZTLÁN</name>
+				<description><![CDATA[<strong>DIRECCION:</strong> NARDO CRUZ S/N ESQUINA CON ROSENDO MARQUEZ
+COL. AZTLAN
+<br>
+<strong>RESPONSABLE:</strong> DRA. MIRNA GUADALUPE SALINAS SALINAS
+<br>
+<strong>TEL:</strong> 83010298 Y 83012086
+ <br>
+<strong>J.S.</strong> 1]]></description>
+				<styleUrl>#icon-1899-DB44361</styleUrl>
+				<ExtendedData>
+					<Data name="descripción">
+					</Data>
+					<Data name="NAME">
+						<value>6</value>
+					</Data>
+					<Data name="LAYER">
+						<value>C.S.U. AZTLÁN NARDO CRUZ C/ROSENDO MARQUEZ MONTERREY CENTRO DE SALUD</value>
+					</Data>
+					<Data name="NUM">
+						<value>58</value>
+					</Data>
+				</ExtendedData>
+				<Point>
+					<coordinates>-100.339898,25.73123500000001,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>C.S.U. ALVARO OBREGON</name>
+				<description><![CDATA[<strong>DIRECCION:</strong> ESTACION ESPERANZA 5210
+COL. ALVARO OBREGON 
+<br>
+<strong>RESPONSABLE:</strong> DRA. SANJUANITA DEL CARMEN  FLORES CORDERO
+<br>
+<strong>TEL:</strong> 83100970 Y 14255023
+ <br>
+<strong>J.S.</strong> 1]]></description>
+				<styleUrl>#icon-1899-DB44361</styleUrl>
+				<ExtendedData>
+					<Data name="descripción">
+					</Data>
+					<Data name="NAME">
+						<value>3</value>
+					</Data>
+					<Data name="LAYER">
+						<value>C.S.U. ÁLVARO OBREGÓN ESTACION ESPERANZA 5210 MONTERREY (81) 8310-0970 CENTRO DE SALUD</value>
+					</Data>
+					<Data name="NUM">
+						<value>55</value>
+					</Data>
+				</ExtendedData>
+				<Point>
+					<coordinates>-100.362386,25.735519,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark id="1.2.1">
+				<name>C.S.U. TOPO CHICO</name>
+				<address>Calle Apodaca 1478, Centro de Salud Topo Chico, 64260 Monterrey, N.L., México</address>
+				<phoneNumber>+52 81 8376 3607</phoneNumber>
+				<snippet>Calle Apodaca 1478, Centro de Salud Topo Chico, 64260 Monterrey, N.L., México</snippet>
+				<description><![CDATA[<!DOCTYPE html><html lang="es-419"> <head> <style>body{font-family:Roboto,Arial,sans-serif}.DiVP2e{background-color:#fafafa;border-radius:2px;bottom:2px;left:2px;position:absolute;right:2px;top:2px}.X6ZKdd{font-size:18px;font-weight:bold;line-height:25px;margin-bottom:5px}.gr0Qde{font-size:14px;font-weight:300;line-height:18px;margin-bottom:5px}.Nqfqlb{font-size:16px;line-height:normal;color:#e7711b;margin-right:5px}.review-count{font-size:12px;line-height:normal}.OTInGb,.hSSRhf,.xDQDq{display:inline-block;background-image:url('//maps.gstatic.com/tactile/omnibox/star-20130618.png');width:13px;height:13px;background-size:36px 12px}.hSSRhf{background-position:-13px 0}.xDQDq{background-position:-25px 0}.Qfo35d{font-size:12px;margin-bottom:2px}.gs8uRd{font-size:14px;margin-bottom:2px}.JByhjc{font-size:14px;margin-bottom:2px;margin-top:5px}.iWlmL{font-size:14px;margin-bottom:2px;margin-top:5px}.OYCkv{font-size:14px;margin-bottom:2px;margin-top:5px}.VUd1Hd{font-size:14px;margin-bottom:2px}.jK1Lre{font-size:14px;padding:6px 15px 2px;margin-bottom:5px}.PQWkDb{overflow:hidden;display:inline-block;vertical-align:top;position:relative}.giiMnc{font-size:10px;font-style:italic}.ncIaof{font-weight:600}</style> <meta content="width=device-width, initial-scale=1" name="viewport"> </head> <body> <div class="DiVP2e"> <div class="tg0Ii"> <div class="PQWkDb"> <img alt="C.S.U. TOPO CHICO" src="https://geo0.ggpht.com/cbk?panoid=F7Rf0RTzWOQ9A94cLbrdDw&amp;output=thumbnail&amp;cb_client=search.TACTILE.gps&amp;thumb=2&amp;w=408&amp;h=306&amp;yaw=213.01761&amp;pitch=0&amp;thumbfov=100" width="100%"> </div> </div> <br> <div> <span class="X6ZKdd">C.S.U. TOPO CHICO</span>  -  <span class="Qfo35d">Hospital general</span> </div> <div class="gr0Qde"> <div> Calle Apodaca 1478 </div><div>C.S.U. TOPO CHICO </div><div> 64260 Monterrey, Nuevo León </div><div> México </div> </div> <div class="JByhjc">   </div>  <div class="OYCkv"></div> <br> <div class="gs8uRd"> +52 81 8376 3607 </div> <div class="VUd1Hd">Abierto hasta 15:30</div> <div class="kZ1n7c"> <a href="/url?q=http://www.saludnl.gob.mx/drupal/topo-chico&amp;sa=U&amp;ved=0ahUKEwi45KSPsavcAhWJbVAKHY_ZDtUQ61gIDigJMAA&amp;usg=AOvVaw39dj4CRCLxysEaY-qK4iCu" target="_blank"> saludnl.gob.mx </a> </div> <br>  <span class="Nqfqlb">4.7</span>    <span class="OTInGb"></span>    <span class="OTInGb"></span>    <span class="OTInGb"></span>    <span class="OTInGb"></span>   <span class="hSSRhf"></span>    <span class="reviews"> <a href="http://www.google.com/search?q=Centro+de+Salud+Topo+Chico,+Calle+Apodaca+1478,+Centro+de+Salud+Topo+Chico,+64260+Monterrey,+Nuevo+Le%C3%B3n,+M%C3%A9xico&amp;ludocid=15253650828296775039#lrd=0x8662be2a3820998d:0xd3afda9c6c78e57f,1" target="_blank"> <span class="review-count">3 opiniones</span></a> </span> <div class="Hb2bEc">  </div> </div> </body> </html>]]></description>
+				<styleUrl>#listing_A0</styleUrl>
+				<ExtendedData>
+					<Data name="placepageUri">
+						<value>https://www.google.com/earth/rpc/entity?lat=25.7337055&amp;lng=-100.32812469999999&amp;fid=0x8662be2a3820998d:0xd3afda9c6c78e57f&amp;q=Centro de Salud Topo Chico, Calle Apodaca 1478, Centro de Salud Topo Chico, 64260 Monterrey, Nuevo León, México&amp;hl=es-419&amp;gl=us&amp;client=earth-client&amp;cv=7.3.2.5487&amp;useragent=GoogleEarth/7.3.2.5487(Windows;Microsoft Windows (6.2.9200.0);es-419;kml:2.2;client:Pro;type:default)</value>
+					</Data>
+				</ExtendedData>
+				<MultiGeometry>
+					<Point>
+						<coordinates>-100.3281247,25.7337055,0</coordinates>
+					</Point>
+					<LinearRing>
+						<coordinates>
+							-100.3320661406529,25.73074941951028,0 -100.3320661406529,25.73666158048972,0 -100.3241832593471,25.73666158048972,0 -100.3241832593471,25.73074941951028,0 -100.3320661406529,25.73074941951028,0 
+						</coordinates>
+					</LinearRing>
+				</MultiGeometry>
+			</Placemark>
+			<Placemark>
+				<name>C.S.U. ALIANZA B</name>
+				<description><![CDATA[<strong>DIRECCION:</strong> LOCUTORES S/N ENTRE SOLDADORES Y HERREROS
+COL. LA ALIANZA
+<br>
+<strong>RESPONSABLE:</strong> DR. JOSE ARNULFO URESTI PUENTE
+<br>
+<strong>TEL:</strong> N.T.
+ <br>
+<strong>J.S.</strong> 1]]></description>
+				<styleUrl>#icon-1899-DB44361</styleUrl>
+				<ExtendedData>
+					<Data name="descripción">
+					</Data>
+					<Data name="NAME">
+						<value>2</value>
+					</Data>
+					<Data name="LAYER">
+						<value>C.S.U. ALIANZA B SOLDADORES S/N ENTRE POETAS Y HERRERAS MONTERREY CENTRO DE SALUD</value>
+					</Data>
+					<Data name="NUM">
+						<value>54</value>
+					</Data>
+				</ExtendedData>
+				<Point>
+					<coordinates>-100.415883,25.777656,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>C.S.U. ALIANZA A</name>
+				<description><![CDATA[<strong>DIRECCION:</strong> CALANDRIA, MANZANA 2, LOTE 24
+COL. LA ALIANZA
+<br>
+<strong>RESPONSABLE:</strong> DR. CARMEN BALTAZAR ARAUJO SIGALA
+<br>
+<strong>TEL:</strong> 81022849 Y 11681156
+ <br>
+<strong>J.S.</strong> 1]]></description>
+				<styleUrl>#icon-1899-DB44361</styleUrl>
+				<ExtendedData>
+					<Data name="descripción">
+					</Data>
+					<Data name="NAME">
+						<value>1</value>
+					</Data>
+					<Data name="LAYER">
+						<value>C.S.U. ALIANZA A CALANDRIA, MANZANA 2, LOTE 24 MONTERREY CENTRO DE SALUD</value>
+					</Data>
+					<Data name="NUM">
+						<value>53</value>
+					</Data>
+				</ExtendedData>
+				<Point>
+					<coordinates>-100.403041,25.781723,0</coordinates>
+				</Point>
+			</Placemark>
+		</Folder>
+		<Folder>
+			<name>JURISDICCION SANITARIA 2</name>
+			<Placemark>
+				<name>C.S.U. EL CARMEN</name>
+				<description><![CDATA[<strong>DIRECCION</strong> ABASOLO 401 ESQUINA CON LAZARO GARZA AYALA
+COL. CENTRO 
+<br>
+<strong>RESPONSABLE</strong> DR. RAFAEL CARABAZA RUIZ
+<br>
+<strong>TELEFONO</strong> N.D.
+<br>
+<strong>J.S.</strong> 2]]></description>
+				<LookAt>
+					<longitude>-100.3606969382932</longitude>
+					<latitude>25.93483710003083</latitude>
+					<altitude>0</altitude>
+					<heading>-12.59494623442077</heading>
+					<tilt>45.02464269394599</tilt>
+					<range>102.2088265268955</range>
+					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+				</LookAt>
+				<styleUrl>#msn_pink-blank</styleUrl>
+				<Point>
+					<gx:drawOrder>1</gx:drawOrder>
+					<coordinates>-100.3606650366728,25.93483223116987,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>C.S.U. TERMINAL</name>
+				<description><![CDATA[<strong>DIRECCION:</strong> FELIX U. GOMEZ 1700 NORTE
+COL. TERMINAL
+<br>
+<strong>RESPONSABLE:</strong> DR. JESUS FLORES MORA
+<br>
+<strong>TEL:</strong> 83723876
+ <br>
+<strong>J.S.</strong> 2]]></description>
+				<styleUrl>#icon-1899-DB4436</styleUrl>
+				<ExtendedData>
+					<Data name="descripción">
+					</Data>
+					<Data name="NAME">
+						<value>47</value>
+					</Data>
+					<Data name="LAYER">
+						<value>C.S.U. TERMINAL FELIX U GOMEZ 1700 NTE MONTERREY (81) 8374-1361 CENTRO DE SALUD</value>
+					</Data>
+					<Data name="NUM">
+						<value>99</value>
+					</Data>
+				</ExtendedData>
+				<Point>
+					<coordinates>-100.295857,25.688566,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>C.S.U. LA UNIDAD</name>
+				<description><![CDATA[<strong>DIRECCION:</strong> UNIDAD COMERCIAL 201<br>
+COL. LA UNIDAD<br>
+<strong>RESPONSABLE:</strong> DR. SERGIO IBARRA ZACARIAS<br>
+<strong>TEL:</strong> N.D.<br>
+<strong>J.S.</strong> 2]]></description>
+				<styleUrl>#icon-1899-DB44361</styleUrl>
+				<ExtendedData>
+					<Data name="descripción">
+					</Data>
+					<Data name="NAME">
+						<value>CENTRO DE SALUD LA UNIDAD</value>
+					</Data>
+					<Data name="LAYER">
+						<value>CENTRO DE SALUD LA UNIDAD</value>
+					</Data>
+					<Data name="NUM">
+						<value>8</value>
+					</Data>
+				</ExtendedData>
+				<Point>
+					<coordinates>-100.415532,25.798631,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>C.S.U. LAS ENCINAS</name>
+				<description><![CDATA[<strong>DIRECCION:</strong> DONATO ELIZONDO 104<br>
+COL. LAS ENCINAS<br>
+<strong>RESPONSABLE:</strong> DRA. IMELDA MARTINEZ CAMPOS<br>
+<strong>TEL:</strong> 83971705<br>
+<strong>J.S.</strong> 2]]></description>
+				<styleUrl>#icon-1899-DB44361</styleUrl>
+				<ExtendedData>
+					<Data name="descripción">
+					</Data>
+					<Data name="NAME">
+						<value>CIS CUIDADOS INTEGRALES DE SALUD SUCURSAL ENCINAS</value>
+					</Data>
+					<Data name="LAYER">
+						<value>CIS CUIDADOS INTEGRALES DE SALUD SUCURSAL ENCINAS</value>
+					</Data>
+					<Data name="NUM">
+						<value>6</value>
+					</Data>
+				</ExtendedData>
+				<Point>
+					<coordinates>-100.3111537099073,25.80140746601652,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>C.S.U. LAS MALVINAS</name>
+				<description><![CDATA[<strong>DIRECCION:</strong> CERRO DEL TOPO S/N<br> COL. LAS MALVINAS<br><strong>RESPONSABLE:</strong> DR. JORGE FLORES MARTINEZ<br><strong>J.S.</strong> 2]]></description>
+				<styleUrl>#icon-1899-DB44361</styleUrl>
+				<ExtendedData>
+					<Data name="descripción">
+					</Data>
+					<Data name="NAME">
+						<value>CENTRO DE SALUD MALVINAS</value>
+					</Data>
+					<Data name="LAYER">
+						<value>CENTRO DE SALUD MALVINAS</value>
+					</Data>
+					<Data name="NUM">
+						<value>5</value>
+					</Data>
+				</ExtendedData>
+				<Point>
+					<coordinates>-100.299006,25.795216,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>C.S.U. SAN MIGUEL</name>
+				<description><![CDATA[<strong>DIRECCION:</strong> AVE. TORDO 501<br> COL. SAN MIGUEL<br><strong>RESPONSABLE:</strong> DR. ALAN GABRIEL CORTES NAVARRO<br><strong>J.S.</strong> 2]]></description>
+				<styleUrl>#icon-1899-DB44361</styleUrl>
+				<ExtendedData>
+					<Data name="descripción">
+					</Data>
+					<Data name="NAME">
+						<value>CENTRO DE SALUD SAN MIGUEL</value>
+					</Data>
+					<Data name="LAYER">
+						<value>CENTRO DE SALUD SAN MIGUEL</value>
+					</Data>
+					<Data name="NUM">
+						<value>4</value>
+					</Data>
+				</ExtendedData>
+				<Point>
+					<coordinates>-100.372142,25.844052,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>C.S.U. EX HACIENDA EL CANADA</name>
+				<description><![CDATA[<strong>DIRECCION:</strong> BOULEVARD BENITO JUAREZ 205<br> COL. EX HACIENDA EL CANADA<br><strong>RESPONSABLE:</strong> DR. JORGE WALLE CARDONA<br><strong>J.S.</strong> 2]]></description>
+				<styleUrl>#icon-1899-DB44361</styleUrl>
+				<ExtendedData>
+					<Data name="descripción">
+					</Data>
+					<Data name="NAME">
+						<value>CENTRO DE SALUD EX HACIENDA EL CANADA</value>
+					</Data>
+					<Data name="LAYER">
+						<value>CENTRO DE SALUD EX HACIENDA EL CANADA</value>
+					</Data>
+					<Data name="NUM">
+						<value>2</value>
+					</Data>
+				</ExtendedData>
+				<Point>
+					<coordinates>-100.288399,25.781262,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>C.S.U. CELESTINO GASCA</name>
+				<description><![CDATA[<strong>DIRECCION:</strong> TLAXCALA 100<br> COL. CELESTINO GASCA<br><strong>RESPONSABLE:</strong> DR. FRANCISCO JAIME FUENTES<br><strong>J.S.</strong> 2]]></description>
+				<styleUrl>#icon-1899-DB44361</styleUrl>
+				<ExtendedData>
+					<Data name="descripción">
+					</Data>
+					<Data name="NAME">
+						<value>CENTRO DE SALUD CELESTINO GASCA</value>
+					</Data>
+					<Data name="LAYER">
+						<value>CENTRO DE SALUD CELESTINO GASCA</value>
+					</Data>
+					<Data name="NUM">
+						<value>1</value>
+					</Data>
+				</ExtendedData>
+				<Point>
+					<coordinates>-100.319263,25.771997,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>C.S.U. FOMERREY IX</name>
+				<description><![CDATA[<strong>DIRECCION:</strong> MACARIO PEREZ 121<br>
+COL. FOMERREY IX<br>
+<strong>RESPONSABLE:</strong> DR. LINO LOYOLA JUAREZ<br>
+<strong>TEL:</strong> N.D.<br>
+<strong>J.S.</strong> 2]]></description>
+				<styleUrl>#icon-1899-DB44361</styleUrl>
+				<ExtendedData>
+					<Data name="descripción">
+					</Data>
+					<Data name="NAME">
+						<value>CENTRO DE SALUD FOMERREY 9</value>
+					</Data>
+					<Data name="LAYER">
+						<value>CENTRO DE SALUD FOMERREY 9</value>
+					</Data>
+					<Data name="NUM">
+						<value>7</value>
+					</Data>
+				</ExtendedData>
+				<Point>
+					<coordinates>-100.327355,25.782872,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>C.S.U. BELISARIO DOMINGUEZ</name>
+				<description><![CDATA[<strong>DIRECCION:</strong> 5TA AVENIDA 100<br>
+COL. BELISARIO DOMINGUEZ<br>
+<strong>RESPONSABLE:</strong>N.D.<br>
+<strong>TEL:</strong> N.D.<br>
+<strong>J.S.</strong> 2]]></description>
+				<styleUrl>#icon-1899-DB44361</styleUrl>
+				<ExtendedData>
+					<Data name="descripción">
+					</Data>
+					<Data name="NAME">
+						<value>C.S.U. BELISARIO DOMINGUEZ</value>
+					</Data>
+					<Data name="LAYER">
+						<value>C.S.U. BELISARIO DOMINGUEZ</value>
+					</Data>
+					<Data name="NUM">
+						<value>9</value>
+					</Data>
+				</ExtendedData>
+				<Point>
+					<coordinates>-100.304714,25.80114800000001,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark id="1.2.1">
+				<name>C.S.U. NUEVA ESPERANZA</name>
+				<address>Villa de Guadalupe 301-303, Nueva Esperanza, 66064 Cd Gral Escobedo, N.L., México</address>
+				<snippet>Villa de Guadalupe 301-303, Nueva Esperanza, 66064 Cd Gral Escobedo, N.L., México</snippet>
+				<description><![CDATA[<!DOCTYPE html><html lang="es-419"> <head> <style>body{font-family:Roboto,Arial,sans-serif}.DiVP2e{background-color:#fafafa;border-radius:2px;bottom:2px;left:2px;position:absolute;right:2px;top:2px}.X6ZKdd{font-size:18px;font-weight:bold;line-height:25px;margin-bottom:5px}.gr0Qde{font-size:14px;font-weight:300;line-height:18px;margin-bottom:5px}.Nqfqlb{font-size:16px;line-height:normal;color:#e7711b;margin-right:5px}.review-count{font-size:12px;line-height:normal}.OTInGb,.hSSRhf,.xDQDq{display:inline-block;background-image:url('//maps.gstatic.com/tactile/omnibox/star-20130618.png');width:13px;height:13px;background-size:36px 12px}.hSSRhf{background-position:-13px 0}.xDQDq{background-position:-25px 0}.Qfo35d{font-size:12px;margin-bottom:2px}.gs8uRd{font-size:14px;margin-bottom:2px}.JByhjc{font-size:14px;margin-bottom:2px;margin-top:5px}.iWlmL{font-size:14px;margin-bottom:2px;margin-top:5px}.OYCkv{font-size:14px;margin-bottom:2px;margin-top:5px}.VUd1Hd{font-size:14px;margin-bottom:2px}.jK1Lre{font-size:14px;padding:6px 15px 2px;margin-bottom:5px}.PQWkDb{overflow:hidden;display:inline-block;vertical-align:top;position:relative}.giiMnc{font-size:10px;font-style:italic}.ncIaof{font-weight:600}</style> <meta content="width=device-width, initial-scale=1" name="viewport"> </head> <body> <div class="DiVP2e"> <div class="tg0Ii"> <div class="PQWkDb"> <img alt="Centro de Salud Nueva Esperanza" src="https://geo0.ggpht.com/cbk?panoid=BxgBzNKXHcF7PGW4pCpbsQ&amp;output=thumbnail&amp;cb_client=search.TACTILE.gps&amp;thumb=2&amp;w=408&amp;h=306&amp;yaw=139.30038&amp;pitch=0&amp;thumbfov=100" width="100%"> </div> </div> <br> <div> <span class="X6ZKdd">Centro de Salud Nueva Esperanza</span>  -  <span class="Qfo35d">Médico</span> </div> <div class="gr0Qde"> <div> Villa de Guadalupe 301-303 </div><div> Nueva Esperanza </div><div> 66064 Cd Gral Escobedo, N.L. </div><div> México </div> </div> <div class="JByhjc">   </div>  <div class="OYCkv"></div> <br>  <div class="VUd1Hd"></div> <div class="kZ1n7c"> <a href="/url?q=http://www.saludnl.gob.mx/drupal/nueva-esperanza&amp;sa=U&amp;ved=0ahUKEwjn1fTqrKvcAhXN2qQKHaxkCogQ61gICSgFMAA&amp;usg=AOvVaw0As0D52JO9LDlhhOwP36eI" target="_blank"> saludnl.gob.mx </a> </div> <br>  <span class="reviews"> <a href="#" target="_blank"> <span class="review-count"></span></a> </span> <div class="Hb2bEc">  </div> </div> </body> </html>]]></description>
+				<styleUrl>#listing_A7</styleUrl>
+				<ExtendedData>
+					<Data name="placepageUri">
+						<value>https://www.google.com/earth/rpc/entity?lat=25.7992277&amp;lng=-100.3920139&amp;fid=0x8662910343627dcd:0xcd6785ba84b86ef2&amp;q=Centro de Salud Nueva Esperanza, Villa de Guadalupe 301-303, Nueva Esperanza, 66064 Cd Gral Escobedo, N.L., México&amp;hl=es-419&amp;gl=us&amp;client=earth-client&amp;cv=7.3.2.5487&amp;useragent=GoogleEarth/7.3.2.5487(Windows;Microsoft Windows (6.2.9200.0);es-419;kml:2.2;client:Pro;type:default)</value>
+					</Data>
+				</ExtendedData>
+				<Point>
+					<coordinates>-100.3894049,25.7995597,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>C.S.U. ALIANZA REAL ESCOBEDO</name>
+				<description><![CDATA[<strong>DIRECCION:</strong> AVE. SAN MIGUEL 805<br>
+COL. ALIANZA REAL<br>
+<strong>RESPONSABLE:</strong> DRA. MELISSA HAYDEE GARCIA GARCIA<br>
+<strong>TEL:</strong> N.D.<br>
+<strong>J.S.</strong> 2]]></description>
+				<styleUrl>#icon-1899-DB44361</styleUrl>
+				<ExtendedData>
+					<Data name="descripción">
+					</Data>
+					<Data name="NAME">
+						<value>CENTRO DE SALUD LA ALIANZA REAL ESCOBEDO</value>
+					</Data>
+					<Data name="LAYER">
+						<value>CENTRO DE SALUD LA ALIANZA REAL ESCOBEDO</value>
+					</Data>
+					<Data name="NUM">
+						<value>10</value>
+					</Data>
+				</ExtendedData>
+				<Point>
+					<coordinates>-100.396195,25.840193,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark id="1.2.1">
+				<name>C.N.V. PEDREGAL</name>
+				<address>Ave. Las Torres, Col. Parque Industrial, Cerámica, Parque Industrial Escobedo, 66062 Cd Gral Escobedo, N.L., México</address>
+				<snippet>Ave. Las Torres, Col. Parque Industrial, Cerámica, Parque Industrial Escobedo, 66062 Cd Gral Escobedo, N.L., México</snippet>
+				<description><![CDATA[<!DOCTYPE html><html lang="es-419"> <head> <style>body{font-family:Roboto,Arial,sans-serif}.DiVP2e{background-color:#fafafa;border-radius:2px;bottom:2px;left:2px;position:absolute;right:2px;top:2px}.X6ZKdd{font-size:18px;font-weight:bold;line-height:25px;margin-bottom:5px}.gr0Qde{font-size:14px;font-weight:300;line-height:18px;margin-bottom:5px}.Nqfqlb{font-size:16px;line-height:normal;color:#e7711b;margin-right:5px}.review-count{font-size:12px;line-height:normal}.OTInGb,.hSSRhf,.xDQDq{display:inline-block;background-image:url('//maps.gstatic.com/tactile/omnibox/star-20130618.png');width:13px;height:13px;background-size:36px 12px}.hSSRhf{background-position:-13px 0}.xDQDq{background-position:-25px 0}.Qfo35d{font-size:12px;margin-bottom:2px}.gs8uRd{font-size:14px;margin-bottom:2px}.JByhjc{font-size:14px;margin-bottom:2px;margin-top:5px}.iWlmL{font-size:14px;margin-bottom:2px;margin-top:5px}.OYCkv{font-size:14px;margin-bottom:2px;margin-top:5px}.VUd1Hd{font-size:14px;margin-bottom:2px}.jK1Lre{font-size:14px;padding:6px 15px 2px;margin-bottom:5px}.PQWkDb{overflow:hidden;display:inline-block;vertical-align:top;position:relative}.giiMnc{font-size:10px;font-style:italic}.ncIaof{font-weight:600}</style> <meta content="width=device-width, initial-scale=1" name="viewport"> </head> <body> <div class="DiVP2e"> <div class="tg0Ii"> <div class="PQWkDb"> <img alt="Centro Nueva Vida Pedregal" src="https://geo1.ggpht.com/cbk?panoid=q_mH88iftESrkvuLophJ9g&amp;output=thumbnail&amp;cb_client=search.TACTILE.gps&amp;thumb=2&amp;w=408&amp;h=306&amp;yaw=353.53308&amp;pitch=0&amp;thumbfov=100" width="100%"> </div> </div> <br> <div> <span class="X6ZKdd">Centro Nueva Vida Pedregal</span>  -  <span class="Qfo35d">Salud y bienestar</span> </div> <div class="gr0Qde"> <div> Ave. Las Torres, Col. Parque Industrial, Cerámica </div><div> Parque Industrial Escobedo </div><div> 66062 Cd Gral Escobedo, Nuevo León </div><div> México </div> </div> <div class="JByhjc">   </div>  <div class="OYCkv"></div> <br>  <div class="VUd1Hd">Abierto hasta 15:30</div> <div class="kZ1n7c"> <a href="#" target="_blank">  </a> </div> <br>  <span class="reviews"> <a href="#" target="_blank"> <span class="review-count"></span></a> </span> <div class="Hb2bEc">  </div> </div> </body> </html>]]></description>
+				<styleUrl>#listing_A5</styleUrl>
+				<ExtendedData>
+					<Data name="placepageUri">
+						<value>https://www.google.com/earth/rpc/entity?lat=25.8064818&amp;lng=-100.35682899999999&amp;fid=0x8662917bdfe72661:0x89ea91730db98ff3&amp;q=Centro Nueva Vida Pedregal, Ave. Las Torres, Col. Parque Industrial, Cerámica, Parque Industrial Escobedo, 66062 Cd Gral Escobedo, N.L., México&amp;hl=es-419&amp;gl=us&amp;client=earth-client&amp;cv=7.3.2.5487&amp;useragent=GoogleEarth/7.3.2.5487(Windows;Microsoft Windows (6.2.9200.0);es-419;kml:2.2;client:Pro;type:default)</value>
+					</Data>
+				</ExtendedData>
+				<MultiGeometry>
+					<Point>
+						<coordinates>-100.356829,25.8064818,0</coordinates>
+					</Point>
+					<LinearRing>
+						<coordinates>
+							-100.3607680170878,25.80352753718412,0 -100.3607680170878,25.80943606281588,0 -100.3528899829122,25.80943606281588,0 -100.3528899829122,25.80352753718412,0 -100.3607680170878,25.80352753718412,0 
+						</coordinates>
+					</LinearRing>
+				</MultiGeometry>
+			</Placemark>
+			<Placemark id="6777167168557193221">
+				<name>C.S.U. RIO PESQUERIA</name>
+				<description><![CDATA[<strong>DIRECCION</strong> RIO NORTE 108
+COL. RIO PESQUERIA
+<br>
+<strong>RESPONSABLE</strong> IRMA GONZALEZ PEREZ
+<br>
+<strong>TELEFONO</strong> N.D.
+<br>
+<strong>J.S.</strong> 2]]></description>
+				<styleUrl>#msn_A</styleUrl>
+				<ExtendedData>
+					<Data name="tracking_href_2">
+						<value>http://www.google.com/maps/gen_204?ct=google_earth:popup&amp;oi=blaces-hospital_h-hospital._._._.db5c9a909b6fb7ca_en&amp;cad=lat:25.8015882,lon:-100.2757513,quad:01032301031321,cc:MX</value>
+					</Data>
+				</ExtendedData>
+				<Point>
+					<coordinates>-100.2757513,25.8015882,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>C.S.U. PEDREGAL DEL TOPO CHICO</name>
+				<description><![CDATA[<strong>DIRECCION:</strong> AVE. LAS TORRES 1301<br> COL. PEDREGAL DEL TOPO CHICO<br><strong>RESPONSABLE:</strong> DRA. MA ANA LETICIA RAMOS MARTINEZ<br><strong>J.S.</strong> 2]]></description>
+				<styleUrl>#icon-1899-DB44361</styleUrl>
+				<ExtendedData>
+					<Data name="descripción">
+					</Data>
+					<Data name="NAME">
+						<value>CENTRO DE SALUD ESCOBEDO</value>
+					</Data>
+					<Data name="LAYER">
+						<value>CENTRO DE SALUD ESCOBEDO</value>
+					</Data>
+					<Data name="NUM">
+						<value>3</value>
+					</Data>
+				</ExtendedData>
+				<Point>
+					<coordinates>-100.363076,25.808806,0</coordinates>
+				</Point>
+			</Placemark>
+		</Folder>
+		<Folder>
+			<name>JURISDICCION SANITARIA 3</name>
+			<Placemark>
+				<name>C.S.U. SANTA CATARINA</name>
+				<description><![CDATA[<strong>DIRECCION:</strong> MANUEL ORDOÑEZ S/N
+COL. 
+<br>
+<strong>RESPONSABLE:</strong> N.D.
+<br>
+<strong>TEL:</strong> N.D.
+ <br>
+<strong>J.S.</strong> 3
+<br>
+<strong>HOIRARIO:</strong> Lu-Vi de 8:00 AM a 3:30 PM 
+<br>
+<strong>SERVICIOS MEDICOS:</strong> MEDICINA GENERAL
+<br>
+<strong>CLUES:</strong>]]></description>
+				<styleUrl>#icon-1899-DB443600</styleUrl>
+				<ExtendedData>
+					<Data name="descripción">
+					</Data>
+					<Data name="NAME">
+						<value>11</value>
+					</Data>
+					<Data name="LAYER">
+						<value>CENTRO DE SALUD SANTA CATARINA Manuel Ordoñez S/N Santa Catarina, N.L., MX C.P. 66350 Horario: Lu-Vi de 8:00 AM a 3:30 PM Servicios médicos: Medicina General Jurisdicción Sanitaria: 3 CLUES: NLSSA004186</value>
+					</Data>
+					<Data name="NUM">
+						<value>114</value>
+					</Data>
+				</ExtendedData>
+				<Point>
+					<coordinates>-100.458984,25.674965,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>C.S.U. TEPEYAC</name>
+				<description><![CDATA[<strong>DIRECCION:</strong> SAN CRISTOBAL S/N
+COL. TEPEYAC
+<br>
+<strong>RESPONSABLE:</strong> N.D.
+<br>
+<strong>TEL:</strong> N.D.
+ <br>
+<strong>J.S.</strong> 3
+<br>
+<strong>HOIRARIO:</strong> Lu-Vi de 8:00 AM a 3:30 PM 
+<br>
+<strong>SERVICIOS MEDICOS:</strong> MEDICINA GENERAL
+<br>
+<strong>CLUES:</strong>NLSSA004256]]></description>
+				<styleUrl>#icon-1899-DB443600</styleUrl>
+				<ExtendedData>
+					<Data name="descripción">
+					</Data>
+					<Data name="NAME">
+						<value>12</value>
+					</Data>
+					<Data name="LAYER">
+						<value>CENTRO DE SALUD TEPEYAC San Cristobal S/N Santa Catarina, N.L., MX C.P. 66350 Horario: Lu-Vi de 8:00 AM a 3:30 PM Servicios médicos: Medicina General Jurisdicción Sanitaria: 3 CLUES: NLSSA004256</value>
+					</Data>
+					<Data name="NUM">
+						<value>115</value>
+					</Data>
+				</ExtendedData>
+				<Point>
+					<coordinates>-100.458102,25.689216,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>C.S.U. SAN ISIDRO</name>
+				<description><![CDATA[<strong>DIRECCION:</strong> CAÑON DE SAN PABLO 146
+COL. SAN ISIDRO
+<br>
+<strong>RESPONSABLE:</strong> N.D.
+<br>
+<strong>TEL:</strong> N.D.
+ <br>
+<strong>J.S.</strong> 3
+<br>
+<strong>HOIRARIO:</strong> Lu-Vi de 8:00 AM a 3:30 PM 
+<br>
+<strong>SERVICIOS MEDICOS:</strong> MEDICINA GENERAL Y ESTOMATOLOGIA 
+<br>
+<strong>CLUES:</strong>NLSSA004232]]></description>
+				<styleUrl>#icon-1899-DB4436</styleUrl>
+				<ExtendedData>
+					<Data name="descripción">
+					</Data>
+					<Data name="NAME">
+						<value>10</value>
+					</Data>
+					<Data name="LAYER">
+						<value>CENTRO DE SALUD SAN ISIDRO Cañón de San Pablo 146 Santa Catarina, N.L., MX C.P. 66190 Horario: Lu-Vi de 8:00 AM a 3:30 PM Servicios médicos: Medicina General y Estomatología Jurisdicción Sanitaria: 3 CLUES: NLSSA004232</value>
+					</Data>
+					<Data name="NUM">
+						<value>113</value>
+					</Data>
+				</ExtendedData>
+				<Point>
+					<coordinates>-100.434854,25.661615,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>C.S.U. SAN GILBERTO</name>
+				<description><![CDATA[<strong>DIRECCION:</strong> SAN JUAN DE LOS LAGOS 353
+COL. SAN GILBERTO
+<br>
+<strong>RESPONSABLE:</strong> N.D.
+<br>
+<strong>TEL:</strong> N.D.
+ <br>
+<strong>J.S.</strong> 3
+<br>
+<strong>HOIRARIO:</strong> Lu-Vi de 8:00 AM a 8:00 PM 
+<br>
+<strong>SERVICIOS MEDICOS:</strong> MEDICINA GENERAL Y ESTOMATOLOGIA
+<br>
+<strong>CLUES:</strong>NLSSA004290]]></description>
+				<styleUrl>#icon-1899-DB4436</styleUrl>
+				<ExtendedData>
+					<Data name="descripción">
+					</Data>
+					<Data name="NAME">
+						<value>9</value>
+					</Data>
+					<Data name="LAYER">
+						<value>CENTRO DE SALUD SAN GILBERTO San Juan de los Lagos 310 Santa Catarina, N.L., MX C.P. 66369 Horario: Lu-Vi de 8:00 AM a 8:00 PM Servicios médicos: Medicina General y Estomatología Jurisdicción Sanitaria: 3 CLUES: NLSSA004290</value>
+					</Data>
+					<Data name="NUM">
+						<value>112</value>
+					</Data>
+				</ExtendedData>
+				<Point>
+					<coordinates>-100.461238,25.69719,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>C.S.U. SAN FRANCISCO</name>
+				<description><![CDATA[<strong>DIRECCION:</strong> SAN ROBERTO 143
+COL. SAN FRANCISCO 
+<br>
+<strong>RESPONSABLE:</strong> N.D.
+<br>
+<strong>TEL:</strong> N.D.
+ <br>
+<strong>J.S.</strong> 3
+<br>
+<strong>HOIRARIO:</strong> Lu-Vi de 8:00 AM a 3:30 PM 
+<br>
+<strong>SERVICIOS MEDICOS:</strong> MEDICINA GENERAL
+<br>
+<strong>CLUES:</strong>NLSSA004220]]></description>
+				<styleUrl>#icon-1899-DB4436</styleUrl>
+				<ExtendedData>
+					<Data name="descripción">
+					</Data>
+					<Data name="NAME">
+						<value>8</value>
+					</Data>
+					<Data name="LAYER">
+						<value>CENTRO DE SALUD SAN FRANCISCO San Roberto 143 Santa Catarina, N.L., MX C.P. 66368 Horario: Lu-Vi de 8:00 AM a 3:30 PM Servicios médicos: Medicina General Jurisdicción Sanitaria: 3 CLUES: NLSSA004220</value>
+					</Data>
+					<Data name="NUM">
+						<value>111</value>
+					</Data>
+				</ExtendedData>
+				<Point>
+					<coordinates>-100.466725,25.694571,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>C.S.U. PUERTA DEL SOL</name>
+				<description><![CDATA[<strong>DIRECCION:</strong> AVE. PUERTA DEL SOL S/N
+COL. PUERTA DEL SOL
+<br>
+<strong>RESPONSABLE:</strong> N.D.
+<br>
+<strong>TEL:</strong> N.D.
+ <br>
+<strong>J.S.</strong> 3
+<br>
+<strong>HOIRARIO:</strong> Lu-Vi de 8:00 AM a 3:00 PM 
+<br>
+<strong>SERVICIOS MEDICOS:</strong> MEDICINA GENERAL
+<br>
+<strong>CLUES:</strong>NLSSA004215]]></description>
+				<styleUrl>#icon-1899-DB4436</styleUrl>
+				<ExtendedData>
+					<Data name="descripción">
+					</Data>
+					<Data name="NAME">
+						<value>7</value>
+					</Data>
+					<Data name="LAYER">
+						<value>CENTRO DE SALUD PUERTA DEL SOL Avenida Puerta del Sol S/N, C.P. 66388 Santa Catarina, N.L., MX C.P. 66388 Horario: Lu-Vi de 8:00 AM a 3:00 PM Servicios médicos: Medicina General Jurisdicción Sanitaria: 3 CLUES: NLSSA004215</value>
+					</Data>
+					<Data name="NUM">
+						<value>110</value>
+					</Data>
+				</ExtendedData>
+				<Point>
+					<coordinates>-100.481692,25.680853,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>C.S.U. LA FAMA</name>
+				<description><![CDATA[<strong>DIRECCION:</strong> SAN FRANCISCO 169
+COL. LA FAMA
+<br>
+<strong>RESPONSABLE:</strong> N.D.
+<br>
+<strong>TEL:</strong> 83361303
+ <br>
+<strong>J.S.</strong> 3
+<br>
+<strong>HOIRARIO:</strong> Lu-Vi de 8:00 AM a 8:00 PM 
+<br>
+<strong>SERVICIOS MEDICOS:</strong> MEDICINA GENERAL Y ESTOMATOLOGIA 
+<br>
+<strong>CLUES:</strong> NLSSA004273]]></description>
+				<styleUrl>#icon-1899-DB4436</styleUrl>
+				<ExtendedData>
+					<Data name="descripción">
+					</Data>
+					<Data name="NAME">
+						<value>6</value>
+					</Data>
+					<Data name="LAYER">
+						<value>CENTRO DE SALUD LA FAMA San Francisco 169 Santa Catarina, N.L., MX C.P. 66100 Tel: (81) 8336-3091 Horario: Lu-Vi de 8:00 AM a 8:00 PM Servicios médicos: Medicina General, Estomatología, Ginecobstetricia Jurisdicción Sanitaria: 3 CLUES: NLSSA004273</value>
+					</Data>
+					<Data name="NUM">
+						<value>109</value>
+					</Data>
+				</ExtendedData>
+				<Point>
+					<coordinates>-100.426596,25.672711,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>C.S.U. JOSE LOPEZ PORTILLO</name>
+				<description><![CDATA[<strong>DIRECCION:</strong> TENOCH S/N 
+COL. JOSE LOPEZ PORTILLO 
+<br>
+<strong>RESPONSABLE:</strong> N.D.
+<br>
+<strong>TEL:</strong> N.D.
+ <br>
+<strong>J.S.</strong> 3
+<br>
+<strong>HOIRARIO:</strong> Lu-Vi de 8:00 AM a 8:00 PM 
+<br>
+<strong>SERVICIOS MEDICOS:</strong> MEDICINA GENERAL Y ESTOMATOLOGIA
+<br>
+<strong>CLUES:</strong> NLSSA004285]]></description>
+				<styleUrl>#icon-1899-DB4436</styleUrl>
+				<ExtendedData>
+					<Data name="descripción">
+					</Data>
+					<Data name="NAME">
+						<value>5</value>
+					</Data>
+					<Data name="LAYER">
+						<value>CENTRO DE SALUD JOSÉ LÓPEZ PORTILLO Tenoch S/N Santa Catarina, N.L., MX C.P. 66140 Horario: Lu-Vi de 8:00 AM a 8:00 PM Servicios médicos: Medicina General y Estomatología Jurisdicción Sanitaria: 3 CLUES: NLSSA004285</value>
+					</Data>
+					<Data name="NUM">
+						<value>108</value>
+					</Data>
+				</ExtendedData>
+				<Point>
+					<coordinates>-100.430814,25.679217,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>C.S.U. FOMERREY XXIX</name>
+				<description><![CDATA[<strong>DIRECCION:</strong> LUIS MICHELINA S/N
+COL. FOMERREY 29
+<br>
+<strong>RESPONSABLE:</strong> N.D.
+<br>
+<strong>TEL:</strong> N.D.
+ <br>
+<strong>J.S.</strong> 3
+<br>
+<strong>HOIRARIO:</strong> Lu-Vi de 8:00 AM a 3:30 PM 
+<br>
+<strong>SERVICIOS MEDICOS:</strong> MEDICINA GENERAL Y ESTOMATOLOGIA
+<br>
+<strong>CLUES:</strong>NLSSA004203]]></description>
+				<styleUrl>#icon-1899-DB4436</styleUrl>
+				<ExtendedData>
+					<Data name="descripción">
+					</Data>
+					<Data name="NAME">
+						<value>4</value>
+					</Data>
+					<Data name="LAYER">
+						<value>CENTRO DE SALUD FOMERREY XXIX Luis Michelena S/N Santa Catarina, N.L., MX C.P. 66357 Horario: Lu-Vi de 8:00 AM a 3:30 PM Servicios médicos: Medicina General y Estomatología Jurisdicción Sanitaria: 3 CLUES: NLSSA004203</value>
+					</Data>
+					<Data name="NUM">
+						<value>107</value>
+					</Data>
+				</ExtendedData>
+				<Point>
+					<coordinates>-100.477195,25.674732,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>C.S.U. ERMITA</name>
+				<description><![CDATA[<strong>DIRECCION:</strong> SAN HERIBERTO S/N
+COL. ERMITA
+<br>
+<strong>RESPONSABLE:</strong> N.D.
+<br>
+<strong>TEL:</strong> N.D.
+ <br>
+<strong>J.S.</strong> 3
+<br>
+<strong>Horario:</strong> Lu-Vi de 8:00 AM a 3:30 PM 
+<br>
+<strong>Servicios médicos:</strong> Medicina General 
+<br>
+<strong>CLUES:</strong> NLSSA004261]]></description>
+				<styleUrl>#icon-1899-DB4436</styleUrl>
+				<ExtendedData>
+					<Data name="descripción">
+					</Data>
+					<Data name="NAME">
+						<value>3</value>
+					</Data>
+					<Data name="LAYER">
+						<value>CENTRO DE SALUD ERMITA San Heriberto S/N Santa Catarina, N.L., MX C.P. 66129 Horario: Lu-Vi de 8:00 AM a 3:30 PM Servicios médicos: Medicina General Jurisdicción Sanitaria: 3 CLUES: NLSSA004261</value>
+					</Data>
+					<Data name="NUM">
+						<value>106</value>
+					</Data>
+				</ExtendedData>
+				<Point>
+					<coordinates>-100.432499,25.697738,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>C.S.U. EL MIRADOR</name>
+				<description><![CDATA[<strong>DIRECCION:</strong> PRIMERA AVENIDA S/N
+COL. SANTA MARTHA
+<br>
+<strong>RESPONSABLE:</strong> N.D.
+<br>
+<strong>TEL:</strong> N.D.
+ <br>
+<strong>J.S.</strong> 3
+<br>
+<strong>Horario:</strong> Lu-Vi de 8:00 AM a 3:30 PM 
+<br>
+<strong>Servicios médicos:</strong> Medicina General 
+<br>
+<strong>CLUES:</strong> NLSSA004244]]></description>
+				<styleUrl>#icon-1899-DB4436</styleUrl>
+				<ExtendedData>
+					<Data name="descripción">
+					</Data>
+					<Data name="NAME">
+						<value>2</value>
+					</Data>
+					<Data name="LAYER">
+						<value>CENTRO DE SALUD SANTA EL MIRADOR Primera Avenida S/N Santa Catarina, N.L., MX C.P. 66350 Horario: Lu-Vi de 8:00 AM a 3:30 PM Servicios médicos: Medicina General Jurisdicción Sanitaria: 3 CLUES: NLSSA004244</value>
+					</Data>
+					<Data name="NUM">
+						<value>105</value>
+					</Data>
+				</ExtendedData>
+				<Point>
+					<coordinates>-100.465716,25.668234,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>C.S.U. BALCONES</name>
+				<description><![CDATA[<strong>DIRECCION:</strong> PAPEL S/N
+COL. BALCONES DE SANTA CATARINA
+<br>
+<strong>RESPONSABLE:</strong> N.D.
+<br>
+<strong>TEL:</strong> N.D.
+ <br>
+<strong>J.S.</strong> 3
+<br>
+<strong>Horario:</strong> Lu-Vi de 8:00 AM a 8:00 PM 
+<br>
+<strong>Servicios médicos:</strong> Medicina General 
+<br>
+<strong>CLUES:</strong> NLSSA004191]]></description>
+				<styleUrl>#icon-1899-DB4436</styleUrl>
+				<ExtendedData>
+					<Data name="descripción">
+					</Data>
+					<Data name="NAME">
+						<value>1</value>
+					</Data>
+					<Data name="LAYER">
+						<value>CENTRO DE SALUD BALCONES Papel S/N Santa Catarina, N.L., MX C.P. 66350 Horario: Lu-Vi de 8:00 AM a 8:00 PM Servicios médicos: Medicina General Jurisdicción Sanitaria: 3 CLUES: NLSSA004191</value>
+					</Data>
+					<Data name="NUM">
+						<value>104</value>
+					</Data>
+				</ExtendedData>
+				<Point>
+					<coordinates>-100.479979,25.67673,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>CLINICA INTEGRAL BERNARDO REYES</name>
+				<description><![CDATA[<strong>DIRECCION:</strong> BERNARDO REYES 2806
+COL. BELLA VISTA 
+<br>
+<strong>RESPONSABLE:</strong> N.D.
+<br>
+<strong>TEL:</strong> 83747644
+ <br>
+<strong>J.S.</strong> 3]]></description>
+				<styleUrl>#icon-1899-DB4436</styleUrl>
+				<ExtendedData>
+					<Data name="descripción">
+					</Data>
+					<Data name="NAME">
+						<value>51</value>
+					</Data>
+					<Data name="LAYER">
+						<value>CLÍNICA INTEGRAL BERNARDO REYES BERNARDO REYES 2806 COL. BELLA VISTA MONTERREY (81) 8374-7644 CENTRO DE SALUD</value>
+					</Data>
+					<Data name="NUM">
+						<value>103</value>
+					</Data>
+				</ExtendedData>
+				<Point>
+					<coordinates>-100.326764,25.706842,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>C.S.U. SIERRA VENTANA</name>
+				<description><![CDATA[<strong>DIRECCION:</strong> SENDERO 2601
+COL. SIERRA VENTANA 
+<br>
+<strong>RESPONSABLE:</strong> N.D.
+<br>
+<strong>TEL:</strong> N.D.
+ <br>
+<strong>J.S.</strong> 3]]></description>
+				<styleUrl>#icon-1899-DB44361</styleUrl>
+				<ExtendedData>
+					<Data name="descripción">
+					</Data>
+					<Data name="NAME">
+						<value>44</value>
+					</Data>
+					<Data name="LAYER">
+						<value>C.S.U. SIERRA VENTANA SENDERO 2601 MONTERREY CENTRO DE SALUD</value>
+					</Data>
+					<Data name="NUM">
+						<value>96</value>
+					</Data>
+				</ExtendedData>
+				<Point>
+					<coordinates>-100.28551,25.627114,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>C.S.U. SAN MARTIN</name>
+				<description><![CDATA[<strong>DIRECCION:</strong> IRIGOYEN 9004 CRUZ CON AVELLANA
+COL. SAN MARTIN 
+<br>
+<strong>RESPONSABLE:</strong> N.D.
+<br>
+<strong>TEL:</strong> N.D.
+ <br>
+<strong>J.S.</strong> 3]]></description>
+				<styleUrl>#icon-1899-DB44361</styleUrl>
+				<ExtendedData>
+					<Data name="descripción">
+					</Data>
+					<Data name="NAME">
+						<value>42</value>
+					</Data>
+					<Data name="LAYER">
+						<value>C.S.U. SAN MARTÍN IRIGOYEN 9004 CRUZ CON AVELLANA MONTERREY CENTRO DE SALUD</value>
+					</Data>
+					<Data name="NUM">
+						<value>94</value>
+					</Data>
+				</ExtendedData>
+				<Point>
+					<coordinates>-100.36123,25.75706,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>C.S.U. SAN ANGEL</name>
+				<description><![CDATA[<strong>DIRECCION:</strong> VALLE HERMOSO 5300
+COL. SAN ANGEL
+<br>
+<strong>RESPONSABLE:</strong> N.D.
+<br>
+<strong>TEL:</strong> N.D.
+ <br>
+<strong>J.S.</strong> 3]]></description>
+				<styleUrl>#icon-1899-DB44361</styleUrl>
+				<ExtendedData>
+					<Data name="descripción">
+					</Data>
+					<Data name="NAME">
+						<value>39</value>
+					</Data>
+					<Data name="LAYER">
+						<value>C.S.U. SAN ÁNGEL VALLE HERMOSO 5300 SAN ANGEL MONTERREY CENTRO DE SALUD</value>
+					</Data>
+					<Data name="NUM">
+						<value>92</value>
+					</Data>
+				</ExtendedData>
+				<Point>
+					<coordinates>-100.268239,25.620926,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>C.S.U. REVOLUCION PROLETARIA</name>
+				<description><![CDATA[<strong>DIRECCION:</strong> EMILIANO ZAPATA S/N
+COL. REVOLUCION PROLETARIA
+<br>
+<strong>RESPONSABLE:</strong> N.D.
+<br>
+<strong>TEL:</strong> N.D.
+ <br>
+<strong>J.S.</strong> 3]]></description>
+				<styleUrl>#icon-1899-DB44361</styleUrl>
+				<ExtendedData>
+					<Data name="descripción">
+					</Data>
+					<Data name="NAME">
+						<value>38</value>
+					</Data>
+					<Data name="LAYER">
+						<value>C.S.U. REVOLUCIÓN PROLETARIA EMILIANO ZAPATA S/N MONTERREY CENTRO DE SALUD</value>
+					</Data>
+					<Data name="NUM">
+						<value>90</value>
+					</Data>
+				</ExtendedData>
+				<Point>
+					<coordinates>-100.286261,25.632697,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>C.S.U. PIO X</name>
+				<description><![CDATA[<strong>DIRECCION:</strong> PRIV. MOCTEZUMA S/N
+COL. PIO X 
+<br>
+<strong>RESPONSABLE:</strong> N.D.
+<br>
+<strong>TEL:</strong> 83402121
+ <br>
+<strong>J.S.</strong> 3]]></description>
+				<styleUrl>#icon-1899-DB44361</styleUrl>
+				<ExtendedData>
+					<Data name="descripción">
+					</Data>
+					<Data name="NAME">
+						<value>35</value>
+					</Data>
+					<Data name="LAYER">
+						<value>C.S.U. PIO X PRIV. MOCTEZUMA S/N PIO X MONTERREY CENTRO DE SALUD</value>
+					</Data>
+					<Data name="NUM">
+						<value>87</value>
+					</Data>
+				</ExtendedData>
+				<Point>
+					<coordinates>-100.328727,25.664092,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>C.S.U. LOS CRISTALES</name>
+				<description><![CDATA[<strong>DIRECCION:</strong> LOS REMATES S/N
+COL. LOS CRISTALES
+<br>
+<strong>RESPONSABLE:</strong> N.D.
+<br>
+<strong>TEL:</strong> N.D.
+ <br>
+<strong>J.S.</strong> 3]]></description>
+				<styleUrl>#icon-1899-DB44361</styleUrl>
+				<ExtendedData>
+					<Data name="descripción">
+					</Data>
+					<Data name="NAME">
+						<value>31</value>
+					</Data>
+					<Data name="LAYER">
+						<value>C.S.U. LOS CRISTALES LOS REMATES S/N MONTERREY CENTRO DE SALUD</value>
+					</Data>
+					<Data name="NUM">
+						<value>83</value>
+					</Data>
+				</ExtendedData>
+				<Point>
+					<coordinates>-100.208841,25.539252,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>C.S.U. LOMA LARGA</name>
+				<description><![CDATA[<strong>DIRECCION:</strong> NUEVA INDEPENDENCIA 1232
+COL. LOMA LARGA
+<br>
+<strong>RESPONSABLE:</strong> N.D.
+<br>
+<strong>TEL:</strong> 83455780
+ <br>
+<strong>J.S.</strong> 3]]></description>
+				<styleUrl>#icon-1899-DB44361</styleUrl>
+				<ExtendedData>
+					<Data name="descripción">
+					</Data>
+					<Data name="NAME">
+						<value>29</value>
+					</Data>
+					<Data name="LAYER">
+						<value>C.S.U. LOMA LARGA NVA. INDEPENDENCIA 1232 NVA. INDEPENDENCIA MONTERREY (81) 8345-5780 CENTRO DE SALUD</value>
+					</Data>
+					<Data name="NUM">
+						<value>81</value>
+					</Data>
+				</ExtendedData>
+				<Point>
+					<coordinates>-100.328561,25.65815,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>C.S.U. LA REPUBLICA</name>
+				<description><![CDATA[<strong>DIRECCION:</strong> PLAN DE TUXTEPEC 4501
+COL. LA REPUBLICA 
+<br>
+<strong>RESPONSABLE:</strong> N.D.
+<br>
+<strong>TEL:</strong> N.D.
+ <br>
+<strong>J.S.</strong> 3]]></description>
+				<styleUrl>#icon-1899-DB44361</styleUrl>
+				<ExtendedData>
+					<Data name="descripción">
+					</Data>
+					<Data name="NAME">
+						<value>27</value>
+					</Data>
+					<Data name="LAYER">
+						<value>C.S.U. LA REPUBLICA PLAN DE TUXTEPEC 4501 COL LA REPUBLICA MONTERREY CENTRO DE SALUD</value>
+					</Data>
+					<Data name="NUM">
+						<value>79</value>
+					</Data>
+				</ExtendedData>
+				<Point>
+					<coordinates>-100.296897,25.62367800000001,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>C.S.U. FOMERREY XXI</name>
+				<description><![CDATA[<strong>DIRECCION:</strong> PASEO DEL ACUERDUCTO 4365
+COL. FOMERREY 21
+<br>
+<strong>RESPONSABLE:</strong> N.D.
+<br>
+<strong>TEL:</strong> N.D.
+ <br>
+<strong>J.S.</strong> 3]]></description>
+				<styleUrl>#icon-1899-DB44361</styleUrl>
+				<ExtendedData>
+					<Data name="descripción">
+					</Data>
+					<Data name="NAME">
+						<value>20</value>
+					</Data>
+					<Data name="LAYER">
+						<value>C.S.U. FOMERREY XXI PASEO DEL ACUEDUCTO 4365 FOMERREY XXI MONTERREY CENTRO DE SALUD</value>
+					</Data>
+					<Data name="NUM">
+						<value>72</value>
+					</Data>
+				</ExtendedData>
+				<Point>
+					<coordinates>-100.304136,25.629832,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>C.S.U FOMERREY XLV</name>
+				<description><![CDATA[<strong>DIRECCION:</strong> PASEO DEL ACUEDUCTO 6230
+COL. FOMERREY 45
+<br>
+<strong>RESPONSABLE:</strong> N.D.
+<br>
+<strong>TEL:</strong> N.D.
+ <br>
+<strong>J.S.</strong> 3]]></description>
+				<styleUrl>#icon-1899-DB44361</styleUrl>
+				<ExtendedData>
+					<Data name="descripción">
+					</Data>
+					<Data name="NAME">
+						<value>19</value>
+					</Data>
+					<Data name="LAYER">
+						<value>C.S.U. FOMERREY XLV PASEO DEL ACUEDUCTO 6230 MONTERREY CENTRO DE SALUD</value>
+					</Data>
+					<Data name="NUM">
+						<value>71</value>
+					</Data>
+				</ExtendedData>
+				<Point>
+					<coordinates>-100.247592,25.590128,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>C.S.U. ESTANZUELA</name>
+				<description><![CDATA[<strong>DIRECCION:</strong> CONSTRUCCION 90
+COL. NUEVA ESTANZUELA
+<br>
+<strong>RESPONSABLE:</strong> N.D.
+<br>
+<strong>TEL:</strong> N.D.
+ <br>
+<strong>J.S.</strong> 3]]></description>
+				<styleUrl>#icon-1899-DB44361</styleUrl>
+				<ExtendedData>
+					<Data name="descripción">
+					</Data>
+					<Data name="NAME">
+						<value>16</value>
+					</Data>
+					<Data name="LAYER">
+						<value>C.S.U. ESTANZUELA CONSTRUCCION 90 MONTERREY CENTRO DE SALUD</value>
+					</Data>
+					<Data name="NUM">
+						<value>68</value>
+					</Data>
+				</ExtendedData>
+				<Point>
+					<coordinates>-100.238435,25.581543,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>C.S.U. CERRO DE LA CAMPANA</name>
+				<description><![CDATA[<strong>DIRECCION:</strong> RETAMAS 663
+COL. CERRO DE LA CAMPANA 
+<br>
+<strong>RESPONSABLE:</strong> N.D.
+<br>
+<strong>TEL:</strong> N.D.
+ <br>
+<strong>J.S.</strong> 3]]></description>
+				<styleUrl>#icon-1899-DB44361</styleUrl>
+				<ExtendedData>
+					<Data name="descripción">
+					</Data>
+					<Data name="NAME">
+						<value>11</value>
+					</Data>
+					<Data name="LAYER">
+						<value>C.S.U. CERRO DE LA CAMPANA RETAMAS 663 MONTERREY CENTRO DE SALUD</value>
+					</Data>
+					<Data name="NUM">
+						<value>63</value>
+					</Data>
+				</ExtendedData>
+				<Point>
+					<coordinates>-100.298913,25.64261,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>C.S.U. CARACOL</name>
+				<description><![CDATA[<strong>DIRECCION:</strong> JOSE LOPEZ HICKMAN CON 4A ZONA
+COL. CARACOL
+<br>
+<strong>RESPONSABLE:</strong> N.D.
+<br>
+<strong>TEL:</strong> N.D.
+ <br>
+<strong>J.S.</strong> 3]]></description>
+				<styleUrl>#icon-1899-DB44361</styleUrl>
+				<ExtendedData>
+					<Data name="descripción">
+					</Data>
+					<Data name="NAME">
+						<value>10</value>
+					</Data>
+					<Data name="LAYER">
+						<value>C.S.U. CARACOL JOSE LOPEZ HICKMAN S/N MONTERREY CENTRO DE SALUD</value>
+					</Data>
+					<Data name="NUM">
+						<value>62</value>
+					</Data>
+				</ExtendedData>
+				<Point>
+					<coordinates>-100.29512,25.667654,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>C.S.U. CANTERAS Y ALTAMIRA</name>
+				<description><![CDATA[<strong>DIRECCION:</strong> ALFOMBRILLAS 300
+COL. CANTERAS Y ALTAMIRA
+<br>
+<strong>RESPONSABLE:</strong> N.D.
+<br>
+<strong>TEL:</strong> N.D.
+ <br>
+<strong>J.S.</strong> 3]]></description>
+				<styleUrl>#icon-1899-DB44361</styleUrl>
+				<ExtendedData>
+					<Data name="descripción">
+					</Data>
+					<Data name="NAME">
+						<value>9</value>
+					</Data>
+					<Data name="LAYER">
+						<value>C.S.U. CANTERAS Y ALTAMIRA. ALFOMBRILLAS #300 MONTERREY CENTRO DE SALUD</value>
+					</Data>
+					<Data name="NUM">
+						<value>61</value>
+					</Data>
+				</ExtendedData>
+				<Point>
+					<coordinates>-100.305816,25.638666,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>C.S.U. BUROCRATAS MUNICIPALES</name>
+				<description><![CDATA[<strong>DIRECCION:</strong> RAUL CHAPA ZARATE 2401
+COL. BUROCRATAS MUNICIPALES 
+<br>
+<strong>RESPONSABLE:</strong> N.D.
+<br>
+<strong>TEL:</strong> N.D.
+ <br>
+<strong>J.S.</strong> 3]]></description>
+				<styleUrl>#icon-1899-DB44361</styleUrl>
+				<ExtendedData>
+					<Data name="descripción">
+					</Data>
+					<Data name="NAME">
+						<value>8</value>
+					</Data>
+					<Data name="LAYER">
+						<value>C.S.U. BUROCRATAS MUNICIPALES RAUL CHAPA ZARATE S/N MONTERREY CENTRO DE SALUD</value>
+					</Data>
+					<Data name="NUM">
+						<value>60</value>
+					</Data>
+				</ExtendedData>
+				<Point>
+					<coordinates>-100.29939,25.634962,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>C.S.U. BUENOS AIRES</name>
+				<description><![CDATA[<strong>DIRECCION:</strong> PROL. MORELOS 3236
+COL. BUENOS AIRES
+<br>
+<strong>RESPONSABLE:</strong> N.D.
+<br>
+<strong>TEL:</strong> N.T.
+ <br>
+<strong>J.S.</strong> 3]]></description>
+				<styleUrl>#icon-1899-DB44361</styleUrl>
+				<ExtendedData>
+					<Data name="descripción">
+					</Data>
+					<Data name="NAME">
+						<value>7</value>
+					</Data>
+					<Data name="LAYER">
+						<value>C.S.U. BUENOS AIRES PROL. MORELOS S/N MONTERREY CENTRO DE SALUD</value>
+					</Data>
+					<Data name="NUM">
+						<value>59</value>
+					</Data>
+				</ExtendedData>
+				<Point>
+					<coordinates>-100.273334,25.664048,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>C.S.U. ARTURO B. DE LA GARZA</name>
+				<description><![CDATA[<strong>DIRECCION:</strong> ELVIRA RENTERIA 900
+COL. ARTURO B. DE LA GARZA
+<br>
+<strong>RESPONSABLE:</strong> N.D.
+<br>
+<strong>TEL:</strong> 12343503
+ <br>
+<strong>J.S.</strong> 3]]></description>
+				<styleUrl>#icon-1899-DB44361</styleUrl>
+				<ExtendedData>
+					<Data name="descripción">
+					</Data>
+					<Data name="NAME">
+						<value>5</value>
+					</Data>
+					<Data name="LAYER">
+						<value>C.S.U. ARTURO B. DE LA GARZA ELVIRA RENTERIA 900 COL. ARTURO B. DE LA MONTERREY CENTRO DE SALUD</value>
+					</Data>
+					<Data name="NUM">
+						<value>57</value>
+					</Data>
+				</ExtendedData>
+				<Point>
+					<coordinates>-100.309209,25.64895,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>C.S.U. AMERICA II</name>
+				<description><![CDATA[<strong>DIRECCION:</strong> MA DE JESUS DOSAMANTES 803
+COL. AMERICA II
+<br>
+<strong>RESPONSABLE:</strong> N.D.
+<br>
+<strong>TEL:</strong> 83589952
+ <br>
+<strong>J.S.</strong> 3]]></description>
+				<styleUrl>#icon-1899-DB44361</styleUrl>
+				<ExtendedData>
+					<Data name="descripción">
+					</Data>
+					<Data name="NAME">
+						<value>4</value>
+					</Data>
+					<Data name="LAYER">
+						<value>C.S.U. AMÉRICA II MA. DOSAMANTES 803 MONTERREY CENTRO DE SALUD</value>
+					</Data>
+					<Data name="NUM">
+						<value>56</value>
+					</Data>
+				</ExtendedData>
+				<Point>
+					<coordinates>-100.310056,25.653695,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>C.S.R. ICAMOLE</name>
+				<description><![CDATA[<strong>DIRECCION:</strong> DOMICILIO CONOCIDO<br>
+COL. EJIDO ICAMOLE<br>
+<strong>RESPONSABLE:</strong> N.D.<br>
+<strong>TEL:</strong> N.D.<br>
+<strong>J.S.</strong> 3]]></description>
+				<styleUrl>#icon-1899-DB44361</styleUrl>
+				<ExtendedData>
+					<Data name="descripción">
+					</Data>
+					<Data name="NAME">
+						<value>2</value>
+					</Data>
+					<Data name="LAYER">
+						<value>C.S.R. ICAMOLE DOMICILIO CONOCIDO GARCÍA CENTRO DE SALUD</value>
+					</Data>
+					<Data name="NUM">
+						<value>17</value>
+					</Data>
+				</ExtendedData>
+				<Point>
+					<coordinates>-100.713166,25.912499,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>C.S.R. RINCONADA</name>
+				<description><![CDATA[<strong>DIRECCION:</strong> DOMICILIO CONOCIDO<br>
+COL. EJIDO RINCONADA<br>
+<strong>RESPONSABLE:</strong> N.D.<br>
+<strong>TEL:</strong> N.D. <br>
+<strong>J.S.</strong> 3]]></description>
+				<styleUrl>#icon-1899-DB44361</styleUrl>
+				<ExtendedData>
+					<Data name="descripción">
+					</Data>
+					<Data name="NAME">
+						<value>3</value>
+					</Data>
+					<Data name="LAYER">
+						<value>C.S.R. RINCONADA DOMICILIO CONOCIDO GARCÍA CENTRO DE SALUD</value>
+					</Data>
+					<Data name="NUM">
+						<value>18</value>
+					</Data>
+				</ExtendedData>
+				<Point>
+					<coordinates>-100.712066,25.681933,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>C.S.U. COLINAS DEL RIO</name>
+				<description><![CDATA[<strong>DIRECCION:</strong> SAN LUIS CRUZ CON RIO SANTA CATARINA <br>
+COL. COLINAS DEL RIO<br>
+<strong>RESPONSABLE:</strong> N.D.<br>
+<strong>TEL:</strong> N.D. <br>
+<strong>J.S.</strong> 3]]></description>
+				<styleUrl>#icon-1899-DB44361</styleUrl>
+				<ExtendedData>
+					<Data name="descripción">
+					</Data>
+					<Data name="NAME">
+						<value>4</value>
+					</Data>
+					<Data name="LAYER">
+						<value>C.S.U. COLINAS DEL RÍO RIO SAN LUIS, ESQ. CON RIO SALADOS. GARCÍA CENTRO DE SALUD</value>
+					</Data>
+					<Data name="NUM">
+						<value>19</value>
+					</Data>
+				</ExtendedData>
+				<Point>
+					<coordinates>-100.594143,25.812631,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>C.S.U. LAS PALMAS</name>
+				<description><![CDATA[<strong>DIRECCION:</strong> LAS PALMAS 401<br>
+COL. LAS PALMAS<br>
+<strong>RESPONSABLE:</strong> N.D.<br>
+<strong>TEL:</strong> N.D.<br>
+<strong>J.S.</strong> 3]]></description>
+				<styleUrl>#icon-1899-DB44361</styleUrl>
+				<ExtendedData>
+					<Data name="descripción">
+					</Data>
+					<Data name="NAME">
+						<value>5</value>
+					</Data>
+					<Data name="LAYER">
+						<value>CENTRO DE SALUD LAS PALMAS Las Palmas y las Rosas García, N.L., MX C.P. 66005 Horario: Lu-Vi de 8:00 AM a 4:00 PM Servicios Médicos: Medicina General Jurisdicción Sanitaria: 3 CLUES: NLSSA015036</value>
+					</Data>
+					<Data name="NUM">
+						<value>20</value>
+					</Data>
+				</ExtendedData>
+				<Point>
+					<coordinates>-100.424715,25.793701,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>C.S.R. EL FRAILE</name>
+				<description><![CDATA[<strong>DIRECCION:</strong> MOTOLINEA S/N<br>
+COL. EL FRAILE<br>
+<strong>RESPONSABLE:</strong> N.D.<br>
+<strong>TEL:</strong> N.D.<br>
+<strong>J.S.</strong> 3]]></description>
+				<styleUrl>#icon-1899-DB44361</styleUrl>
+				<ExtendedData>
+					<Data name="descripción">
+					</Data>
+					<Data name="NAME">
+						<value>1</value>
+					</Data>
+					<Data name="LAYER">
+						<value>C.S.R. EL FRAILE MOTOLINEA S/N GARCÍA CENTRO DE SALUD</value>
+					</Data>
+					<Data name="NUM">
+						<value>16</value>
+					</Data>
+				</ExtendedData>
+				<Point>
+					<coordinates>-100.593374,25.80133,0</coordinates>
+				</Point>
+			</Placemark>
+		</Folder>
+		<Folder>
+			<name>JURISDICCION SANITARIA 4</name>
+			<Placemark>
+				<name>C.S.U. INSURGENTES</name>
+				<description><![CDATA[<strong>DIRECCION:</strong> INSURGENTES MEXICANOS 101
+COL. INSURGENTES
+<br>
+<strong>RESPONSABLE:</strong> N.D.
+<br>
+<strong>TEL:</strong> 83604712
+ <br>
+<strong>J.S.</strong> 4]]></description>
+				<styleUrl>#icon-1899-DB44361</styleUrl>
+				<ExtendedData>
+					<Data name="descripción">
+					</Data>
+					<Data name="NAME">
+						<value>19</value>
+					</Data>
+					<Data name="LAYER">
+						<value>C.S.U. INSURGENTES INSURGENTES MEXICANOS 101 INSURGENTES GUADALUPE (81) 8360-4712 CENTRO DE SALUD</value>
+					</Data>
+					<Data name="NUM">
+						<value>52</value>
+					</Data>
+				</ExtendedData>
+				<Point>
+					<coordinates>-100.212005,25.670935,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>C.S.U. FOMERREY 7</name>
+				<description><![CDATA[<strong>DIRECCION:</strong> CIRCUNVALACION S/N
+COL. FOMERREY 7
+<br>
+<strong>RESPONSABLE:</strong> N.D.
+<br>
+<strong>TEL:</strong> 14310713
+ <br>
+<strong>J.S.</strong> 4]]></description>
+				<styleUrl>#icon-1899-DB44361</styleUrl>
+				<ExtendedData>
+					<Data name="descripción">
+					</Data>
+					<Data name="NAME">
+						<value>18</value>
+					</Data>
+					<Data name="LAYER">
+						<value>C.S.U. FOMERREY 7 CIRCUNVALACION S/N E HIDALGO GUADALUPE (81) 8327-7031 CENTRO DE SALUD</value>
+					</Data>
+					<Data name="NUM">
+						<value>51</value>
+					</Data>
+				</ExtendedData>
+				<Point>
+					<coordinates>-100.203987,25.694876,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>C.S.U. FOMERREY 31</name>
+				<description><![CDATA[<strong>DIRECCION:</strong> ANCON 7001 ESQUINA CON CALESA
+COL. FOMERREY 31
+<br>
+<strong>RESPONSABLE:</strong> N.D.
+<br>
+<strong>TEL:</strong> 10904129
+ <br>
+<strong>J.S.</strong> 4]]></description>
+				<styleUrl>#icon-1899-DB44361</styleUrl>
+				<ExtendedData>
+					<Data name="descripción">
+					</Data>
+					<Data name="NAME">
+						<value>17</value>
+					</Data>
+					<Data name="LAYER">
+						<value>C.S.U. FOMERREY 31 ANCON 7001 Y CALESA GUADALUPE CENTRO DE SALUD</value>
+					</Data>
+					<Data name="NUM">
+						<value>50</value>
+					</Data>
+				</ExtendedData>
+				<Point>
+					<coordinates>-100.192328,25.695356,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>C.S.U. FOMERREY 3</name>
+				<description><![CDATA[<strong>DIRECCION:</strong> AV. PABLO LIVAS 5501
+COL. FOMERREY 3
+<br>
+<strong>RESPONSABLE:</strong> N.D.
+<br>
+<strong>TEL:</strong> 83604117
+ <br>
+<strong>J.S.</strong> 4]]></description>
+				<styleUrl>#icon-1899-DB44361</styleUrl>
+				<ExtendedData>
+					<Data name="descripción">
+					</Data>
+					<Data name="NAME">
+						<value>16</value>
+					</Data>
+					<Data name="LAYER">
+						<value>C.S.U. FOMERREY 3 AV. PABLO LIVAS 5501 GUADALUPE CENTRO DE SALUD</value>
+					</Data>
+					<Data name="NUM">
+						<value>49</value>
+					</Data>
+				</ExtendedData>
+				<Point>
+					<coordinates>-100.202079,25.663158,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>C.S.U. FOMERREY 19</name>
+				<description><![CDATA[<strong>DIRECCION:</strong> SABINO 921
+COL. FOMERREY 19
+<br>
+<strong>RESPONSABLE:</strong> N.D.
+<br>
+<strong>TEL:</strong> 83606977
+ <br>
+<strong>J.S.</strong> 4]]></description>
+				<styleUrl>#icon-1899-DB44361</styleUrl>
+				<ExtendedData>
+					<Data name="descripción">
+					</Data>
+					<Data name="NAME">
+						<value>15</value>
+					</Data>
+					<Data name="LAYER">
+						<value>C.S.U. FOMERREY 19 SABINO 921 FOMERREY 3 GUADALUPE CENTRO DE SALUD</value>
+					</Data>
+					<Data name="NUM">
+						<value>48</value>
+					</Data>
+				</ExtendedData>
+				<Point>
+					<coordinates>-100.208781,25.659557,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>C.S.U. FOMERREY 18</name>
+				<description><![CDATA[<strong>DIRECCION:</strong> MONTREAL 3063
+COL. FOMERREY 18
+<br>
+<strong>RESPONSABLE:</strong> N.D.
+<br>
+<strong>TEL:</strong> 83237289
+ <br>
+<strong>J.S.</strong> 4]]></description>
+				<styleUrl>#icon-1899-DB44361</styleUrl>
+				<ExtendedData>
+					<Data name="descripción">
+					</Data>
+					<Data name="NAME">
+						<value>14</value>
+					</Data>
+					<Data name="LAYER">
+						<value>C.S.U. FOMERREY 18 VILLA AYALA 4933 FOMERREY 18 GUADALUPE CENTRO DE SALUD</value>
+					</Data>
+					<Data name="NUM">
+						<value>47</value>
+					</Data>
+				</ExtendedData>
+				<Point>
+					<coordinates>-100.205825,25.698587,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>C.S.U. FOMERREY 14</name>
+				<description><![CDATA[<strong>DIRECCION:</strong> MONTREAL 3063
+COL. FOMERREY 14
+<br>
+<strong>RESPONSABLE:</strong> N.D.
+<br>
+<strong>TEL:</strong> 83237289
+ <br>
+<strong>J.S.</strong> 4]]></description>
+				<styleUrl>#icon-1899-DB44361</styleUrl>
+				<ExtendedData>
+					<Data name="descripción">
+					</Data>
+					<Data name="NAME">
+						<value>13</value>
+					</Data>
+					<Data name="LAYER">
+						<value>C.S.U. FOMERREY 14 MONTREAL 3063 FOMERREY 14 GUADALUPE CENTRO DE SALUD</value>
+					</Data>
+					<Data name="NUM">
+						<value>46</value>
+					</Data>
+				</ExtendedData>
+				<Point>
+					<coordinates>-100.234281,25.657559,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>C.S.U. ESCAMILLA</name>
+				<description><![CDATA[<strong>DIRECCION:</strong> TROQUELES 204
+COL. ESCAMILLA
+<br>
+<strong>RESPONSABLE:</strong> N.D.
+<br>
+<strong>TEL:</strong> 81410843
+ <br>
+<strong>J.S.</strong> 4]]></description>
+				<styleUrl>#icon-1899-DB44361</styleUrl>
+				<ExtendedData>
+					<Data name="descripción">
+					</Data>
+					<Data name="NAME">
+						<value>12</value>
+					</Data>
+					<Data name="LAYER">
+						<value>C.S.U. ESCAMILLA TROQUELES 204 ESCAMILLA GUADALUPE CENTRO DE SALUD</value>
+					</Data>
+					<Data name="NUM">
+						<value>45</value>
+					</Data>
+				</ExtendedData>
+				<Point>
+					<coordinates>-100.261448,25.699754,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>C.S.U. CRISPIN TREVIÑO</name>
+				<description><![CDATA[<strong>DIRECCION:</strong> MOISES SAENZ 105
+COL. CRISPIN TREVIÑO
+<br>
+<strong>RESPONSABLE:</strong> N.D.
+<br>
+<strong>TEL:</strong> 8182823185
+ <br>
+<strong>J.S.</strong> 4]]></description>
+				<styleUrl>#icon-1899-DB44361</styleUrl>
+				<ExtendedData>
+					<Data name="descripción">
+					</Data>
+					<Data name="NAME">
+						<value>11</value>
+					</Data>
+					<Data name="LAYER">
+						<value>C.S.U. CRISPIN TREVIÑO MOISES SAENZ 105 CRISPIN TREVIÑO GUADALUPE CENTRO DE SALUD</value>
+					</Data>
+					<Data name="NUM">
+						<value>44</value>
+					</Data>
+				</ExtendedData>
+				<Point>
+					<coordinates>-100.178847,25.671642,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>C.S.U. CHINAMECA</name>
+				<description><![CDATA[<strong>DIRECCION:</strong> ARTEAGA 403
+COL. CHINAMECA
+<br>
+<strong>RESPONSABLE:</strong> N.D.
+<br>
+<strong>TEL:</strong> 11015218
+ <br>
+<strong>J.S.</strong> 4]]></description>
+				<styleUrl>#icon-1899-DB44361</styleUrl>
+				<ExtendedData>
+					<Data name="descripción">
+					</Data>
+					<Data name="NAME">
+						<value>10</value>
+					</Data>
+					<Data name="LAYER">
+						<value>C.S.U. CHINAMECA ARTEAGA 403 GUADALUPE CENTRO DE SALUD</value>
+					</Data>
+					<Data name="NUM">
+						<value>43</value>
+					</Data>
+				</ExtendedData>
+				<Point>
+					<coordinates>-100.266953,25.672974,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>C.S.U. CERRO DE LA SILLA</name>
+				<description><![CDATA[<strong>DIRECCION:</strong> SIERRA DE SANTA CLARA S/N
+COL. CERRO DE LA SILLA
+<br>
+<strong>RESPONSABLE:</strong> N.D.
+<br>
+<strong>TEL:</strong> 10937549
+ <br>
+<strong>J.S.</strong> 4]]></description>
+				<styleUrl>#icon-1899-DB44361</styleUrl>
+				<ExtendedData>
+					<Data name="descripción">
+					</Data>
+					<Data name="NAME">
+						<value>9</value>
+					</Data>
+					<Data name="LAYER">
+						<value>C.S.U. CERRO DE LA SILLA SIERRA DE SANTA CLARA COL. CERRO DE LA SILLA GUADALUPE (81) 8393-8990 CENTRO DE SALUD</value>
+					</Data>
+					<Data name="NUM">
+						<value>42</value>
+					</Data>
+				</ExtendedData>
+				<Point>
+					<coordinates>-100.190402,25.666634,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>C.S.U. CAÑADA BLANCA</name>
+				<description><![CDATA[<strong>DIRECCION:</strong> ZACATECAS S/N
+COL. CAÑADA BLANCA
+<br>
+<strong>RESPONSABLE:</strong> N.D.
+<br>
+<strong>TEL:</strong> 82400196
+ <br>
+<strong>J.S.</strong> 4]]></description>
+				<styleUrl>#icon-1899-DB44361</styleUrl>
+				<ExtendedData>
+					<Data name="descripción">
+					</Data>
+					<Data name="NAME">
+						<value>8</value>
+					</Data>
+					<Data name="LAYER">
+						<value>C.S.U. CAÑADA BLANCA ZACATECAS S/N CAÑADA BLANCA GUADALUPE CENTRO DE SALUD</value>
+					</Data>
+					<Data name="NUM">
+						<value>41</value>
+					</Data>
+				</ExtendedData>
+				<Point>
+					<coordinates>-100.187964,25.72631,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>C.S.U. ATOYAC DE JUAREZ</name>
+				<description><![CDATA[<strong>DIRECCION:</strong> LIC. ANTONIO FLORES 2220
+COL. ATOYAC DE JUAREZ
+<br>
+<strong>RESPONSABLE:</strong> N.D.
+<br>
+<strong>TEL:</strong> 83170689
+ <br>
+<strong>J.S.</strong> 4]]></description>
+				<styleUrl>#icon-1899-DB44361</styleUrl>
+				<ExtendedData>
+					<Data name="descripción">
+					</Data>
+					<Data name="NAME">
+						<value>7</value>
+					</Data>
+					<Data name="LAYER">
+						<value>C.S.U. ATOYAC DE ALVAREZ LIC ANTONIO FLORES 2220 GUADALUPE (81) 8317-2670 CENTRO DE SALUD</value>
+					</Data>
+					<Data name="NUM">
+						<value>40</value>
+					</Data>
+				</ExtendedData>
+				<Point>
+					<coordinates>-100.271276,25.655633,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>C.S.U. ALMAGUER</name>
+				<description><![CDATA[<strong>DIRECCION:</strong> RAYMUNDO ALMAGUER S/N
+COL. ALMAGUER
+<br>
+<strong>RESPONSABLE:</strong> N.D.
+<br>
+<strong>TEL:</strong> 10937287
+ <br>
+<strong>J.S.</strong> 4]]></description>
+				<styleUrl>#icon-1899-DB44361</styleUrl>
+				<ExtendedData>
+					<Data name="descripción">
+					</Data>
+					<Data name="NAME">
+						<value>6</value>
+					</Data>
+					<Data name="LAYER">
+						<value>C.S.U. ALMAGUER RAYMUNDO ALMAGUER S/N ALMAGUER GUADALUPE CENTRO DE SALUD</value>
+					</Data>
+					<Data name="NUM">
+						<value>39</value>
+					</Data>
+				</ExtendedData>
+				<Point>
+					<coordinates>-100.221537,25.653367,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>C.S.U. AGUA NUEVA</name>
+				<description><![CDATA[<strong>DIRECCION:</strong> QUINTANA ROO S/N ENTRE AGUA NUEVA Y RAFAEL RAMIREZ
+COL. AGUA NUEVA
+<br>
+<strong>RESPONSABLE:</strong> N.D.
+<br>
+<strong>TEL:</strong> 83371042
+ <br>
+<strong>J.S.</strong> 4]]></description>
+				<styleUrl>#icon-1899-DB44361</styleUrl>
+				<ExtendedData>
+					<Data name="descripción">
+					</Data>
+					<Data name="NAME">
+						<value>5</value>
+					</Data>
+					<Data name="LAYER">
+						<value>C.S.U. AGUA NUEVA QUINTANA ROO Y AGUA NUEVA S/N COL AGUA NUEVA GUADALUPE CENTRO DE SALUD</value>
+					</Data>
+					<Data name="NUM">
+						<value>38</value>
+					</Data>
+				</ExtendedData>
+				<Point>
+					<coordinates>-100.223167,25.66238900000001,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>C.S.U. LOS NARANJOS</name>
+				<description><![CDATA[<strong>DIRECCION:</strong> LOMAS DE EGIPTO 418<br>
+COL. ARBOLEDA DE LOS NARANJOS<br>
+<strong>RESPONSABLE:</strong> N.D.<br>
+<strong>TEL:</strong> N.D.<br>
+<strong>J.S.</strong> 4]]></description>
+				<styleUrl>#icon-1899-DB44361</styleUrl>
+				<ExtendedData>
+					<Data name="descripción">
+					</Data>
+					<Data name="NAME">
+						<value>CENTRO DE SALUD LOS NARANJOS</value>
+					</Data>
+					<Data name="LAYER">
+						<value>CENTRO DE SALUD LOS NARANJOS</value>
+					</Data>
+					<Data name="NUM">
+						<value>15</value>
+					</Data>
+				</ExtendedData>
+				<Point>
+					<coordinates>-100.168102,25.62845,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>C.S.U. XOCHIMILCO</name>
+				<description><![CDATA[<strong>DIRECCION:</strong> LAGO KARAKOL 101<br>
+COL. XOCHIMILCO<br>
+<strong>RESPONSABLE:</strong> N.D.<br>
+<strong>TEL:</strong> 10931211<br>
+<strong>J.S.</strong> 4]]></description>
+				<styleUrl>#icon-1899-DB44361</styleUrl>
+				<ExtendedData>
+					<Data name="descripción">
+					</Data>
+					<Data name="NAME">
+						<value>31</value>
+					</Data>
+					<Data name="LAYER">
+						<value>C.S.U. XOCHIMILCO LAGO KARACUL 101 XOCHIMILCO GUADALUPE CENTRO DE SALUD</value>
+					</Data>
+					<Data name="NUM">
+						<value>22</value>
+					</Data>
+				</ExtendedData>
+				<Point>
+					<coordinates>-100.173063,25.653615,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>C.S.U. ZERTUCHE</name>
+				<description><![CDATA[<strong>DIRECCION:</strong> AVE. ZERTUCHE 500<br>
+COL. ZERTUCHE<br>
+<strong>RESPONSABLE:</strong> N.D.<br>
+<strong>TEL:</strong> 83604538<br>
+<strong>J.S.</strong> 4]]></description>
+				<styleUrl>#icon-1899-DB44361</styleUrl>
+				<ExtendedData>
+					<Data name="descripción">
+					</Data>
+					<Data name="NAME">
+						<value>32</value>
+					</Data>
+					<Data name="LAYER">
+						<value>C.S.U. ZERTUCHE AV ZERTUCHE 500 COL. ZERTUCHE GUADALUPE CENTRO DE SALUD</value>
+					</Data>
+					<Data name="NUM">
+						<value>21</value>
+					</Data>
+				</ExtendedData>
+				<Point>
+					<coordinates>-100.197938,25.670814,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>C.S.U. VILLA OLIMPICA</name>
+				<description><![CDATA[<strong>DIRECCION:</strong> AVE. LA VILLA 3000 ESQ CON CUBA<br>
+COL. VILLA OLIMPICA<br>
+<strong>RESPONSABLE:</strong> N.D.<br>
+<strong>TEL:</strong> 83604603<br>
+<strong>J.S.</strong> 4]]></description>
+				<styleUrl>#icon-1899-DB44361</styleUrl>
+				<ExtendedData>
+					<Data name="descripción">
+					</Data>
+					<Data name="NAME">
+						<value>30</value>
+					</Data>
+					<Data name="LAYER">
+						<value>C.S.U. VILLA OLIMPICA AV LA VILLA Y CUBA 3000 VILLA OLIMPICA GUADALUPE CENTRO DE SALUD</value>
+					</Data>
+					<Data name="NUM">
+						<value>23</value>
+					</Data>
+				</ExtendedData>
+				<Point>
+					<coordinates>-100.208086,25.647522,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>C.S.U. LA ESPERANZA</name>
+				<description><![CDATA[<strong>DIRECCION: LA ESPERANZA 612</strong><br>
+COL. LA ESPERANZA<br>
+<strong>RESPONSABLE:</strong> N.D.<br>
+<strong>TEL:</strong> 96885890 <br>
+<strong>J.S.</strong> 4]]></description>
+				<styleUrl>#icon-1899-DB44361</styleUrl>
+				<ExtendedData>
+					<Data name="descripción">
+					</Data>
+					<Data name="NAME">
+						<value>CENTRO DE SALUD LA ESPERANZA</value>
+					</Data>
+					<Data name="LAYER">
+						<value>CENTRO DE SALUD LA ESPERANZA</value>
+					</Data>
+					<Data name="NUM">
+						<value>13</value>
+					</Data>
+				</ExtendedData>
+				<Point>
+					<coordinates>-100.123344,25.639566,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>C.S.U. VALLE SOLEADO</name>
+				<description><![CDATA[<strong>DIRECCION:</strong> VALLE ALTO S/N<br>
+COL. VALLE SOLEADO<br>
+<strong>RESPONSABLE:</strong> N.D.<br>
+<strong>TEL:</strong> 84530613<br>
+<strong>J.S.</strong> 4]]></description>
+				<styleUrl>#icon-1899-DB44361</styleUrl>
+				<ExtendedData>
+					<Data name="descripción">
+					</Data>
+					<Data name="NAME">
+						<value>29</value>
+					</Data>
+					<Data name="LAYER">
+						<value>C.S.U. VALLE SOLEADO VALLE ALTO S/N VALLE SOLEADO GUADALUPE CENTRO DE SALUD</value>
+					</Data>
+					<Data name="NUM">
+						<value>24</value>
+					</Data>
+				</ExtendedData>
+				<Point>
+					<coordinates>-100.166199,25.701841,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>C.S.U. TAMAULIPAS</name>
+				<description><![CDATA[<strong>DIRECCION:</strong> VICTORIA 101 ESQUINA CON AVE. COAHUILA<br>
+COL. TAMAULIPAS <br>
+<strong>RESPONSABLE:</strong> N.D.<br>
+<strong>TEL:</strong> 83260710<br>
+<strong>J.S.</strong> 4]]></description>
+				<styleUrl>#icon-1899-DB44361</styleUrl>
+				<ExtendedData>
+					<Data name="descripción">
+					</Data>
+					<Data name="NAME">
+						<value>27</value>
+					</Data>
+					<Data name="LAYER">
+						<value>C.S.U. TAMAULIPAS AV COAHUILA 101 COL. TAMAULIPAS GUADALUPE CENTRO DE SALUD</value>
+					</Data>
+					<Data name="NUM">
+						<value>26</value>
+					</Data>
+				</ExtendedData>
+				<Point>
+					<coordinates>-100.144175,25.661822,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>C.S.U. TIERRA PROPIA</name>
+				<description><![CDATA[<strong>DIRECCION:</strong> TEQUILA S/N ESQUINA CON LA BARCA<br>
+COL. TIERRA PROPIA<br>
+<strong>RESPONSABLE:</strong> N.D.<br>
+<strong>TEL:</strong> 10921410<br>
+<strong>J.S.</strong> 4]]></description>
+				<styleUrl>#icon-1899-DB44361</styleUrl>
+				<ExtendedData>
+					<Data name="descripción">
+					</Data>
+					<Data name="NAME">
+						<value>28</value>
+					</Data>
+					<Data name="LAYER">
+						<value>C.S.U. TIERRA PROPIA TEQUILA S/N Y LA BARCA COL. TIERRA PROPIA GUADALUPE CENTRO DE SALUD</value>
+					</Data>
+					<Data name="NUM">
+						<value>25</value>
+					</Data>
+				</ExtendedData>
+				<Point>
+					<coordinates>-100.189442,25.64172,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>C.S.U. NUEVO LEON</name>
+				<description><![CDATA[<strong>DIRECCION:</strong> AVE. NUEVO LEON S/N<br>
+COL. NUEVO LEON<br>
+<strong>RESPONSABLE:</strong> N.D.<br>
+<strong>TEL:</strong> N.D.<br>
+<strong>J.S.</strong> 4]]></description>
+				<styleUrl>#icon-1899-DB44361</styleUrl>
+				<ExtendedData>
+					<Data name="descripción">
+					</Data>
+					<Data name="NAME">
+						<value>25</value>
+					</Data>
+					<Data name="LAYER">
+						<value>C.S.U. NUEVO LEÓN AV NUEVO LEON GUADALUPE CENTRO DE SALUD</value>
+					</Data>
+					<Data name="NUM">
+						<value>28</value>
+					</Data>
+				</ExtendedData>
+				<Point>
+					<coordinates>-100.152358,25.657794,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>C.S.U. TACUBAYA</name>
+				<description><![CDATA[<strong>DIRECCION:</strong> EVOLUCION 145<br>
+COL. TACUBAYA <br>
+<strong>RESPONSABLE:</strong> N.D.<br>
+<strong>TEL:</strong> N.D.<br>
+<strong>J.S.</strong> 4]]></description>
+				<styleUrl>#icon-1899-DB44361</styleUrl>
+				<ExtendedData>
+					<Data name="descripción">
+					</Data>
+					<Data name="NAME">
+						<value>26</value>
+					</Data>
+					<Data name="LAYER">
+						<value>C.S.U. TACUBAYA EVOLUCION 145 TACUBAYA GUADALUPE CENTRO DE SALUD</value>
+					</Data>
+					<Data name="NUM">
+						<value>27</value>
+					</Data>
+				</ExtendedData>
+				<Point>
+					<coordinates>-100.202357,25.670508,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>C.S.U. NIÑOS HEROES</name>
+				<description><![CDATA[<strong>DIRECCION:</strong> FERNANDO MONTES DE OCA 226<br>
+COL. NIÑOS HEROES<br>
+<strong>RESPONSABLE:</strong> N.D.<br>
+<strong>TEL:</strong> 83600624<br>
+<strong>J.S.</strong> 4]]></description>
+				<styleUrl>#icon-1899-DB44361</styleUrl>
+				<ExtendedData>
+					<Data name="descripción">
+					</Data>
+					<Data name="NAME">
+						<value>24</value>
+					</Data>
+					<Data name="LAYER">
+						<value>C.S.U. NIÑOS HÉROES FERNANDO MONTIEL DE OCA 226 NIÑOS HEROES GUADALUPE CENTRO DE SALUD</value>
+					</Data>
+					<Data name="NUM">
+						<value>29</value>
+					</Data>
+				</ExtendedData>
+				<Point>
+					<coordinates>-100.179745,25.662864,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>C.S.U. MIXCOAC</name>
+				<description><![CDATA[<strong>DIRECCION:</strong> CLAVO 1030 ENTRE HABICHUELA Y CEBADA<br>
+COL. MIXCOAC<br>
+<strong>RESPONSABLE:</strong> N.D.<br>
+<strong>TEL:</strong> 82400292<br>
+<strong>J.S.</strong> 4]]></description>
+				<styleUrl>#icon-1899-DB44361</styleUrl>
+				<ExtendedData>
+					<Data name="descripción">
+					</Data>
+					<Data name="NAME">
+						<value>23</value>
+					</Data>
+					<Data name="LAYER">
+						<value>C.S.U. MIXCOAC CLAVO 1030 COL. MIXCOAC GUADALUPE CENTRO DE SALUD</value>
+					</Data>
+					<Data name="NUM">
+						<value>30</value>
+					</Data>
+				</ExtendedData>
+				<Point>
+					<coordinates>-100.183937,25.713977,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>C.S.U. LOS ENCINOS</name>
+				<description><![CDATA[<strong>DIRECCION:</strong> ENCINOS S/N<br>
+COL. LOS ENCINOS<br>
+<strong>RESPONSABLE:</strong> N.D.<br>
+<strong>TEL:</strong> 83231448<br>
+<strong>J.S.</strong> 4]]></description>
+				<styleUrl>#icon-1899-DB44361</styleUrl>
+				<ExtendedData>
+					<Data name="descripción">
+					</Data>
+					<Data name="NAME">
+						<value>22</value>
+					</Data>
+					<Data name="LAYER">
+						<value>C.S.U. LOS ENCINOS LOS ENCINOS S/N COL. LOS ENCINOS GUADALUPE CENTRO DE SALUD</value>
+					</Data>
+					<Data name="NUM">
+						<value>31</value>
+					</Data>
+				</ExtendedData>
+				<Point>
+					<coordinates>-100.198775,25.686655,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>C.S.U. JOSEFA ZOZAYA</name>
+				<description><![CDATA[<strong>DIRECCION:</strong> PANAMA 130
+<br>
+COL. JOSEFA ZOZAYA
+<br>
+<strong>RESPONSABLE:</strong> N.D.
+<br>
+<strong>TEL:</strong> 83410317
+ <br>
+<strong>J.S.</strong> 4]]></description>
+				<styleUrl>#icon-1899-DB44361</styleUrl>
+				<ExtendedData>
+					<Data name="descripción">
+					</Data>
+					<Data name="NAME">
+						<value>20</value>
+					</Data>
+					<Data name="LAYER">
+						<value>C.S.U. JOSÉFA ZOZAYA PANAMA 130 COL.JOSEFA ZOZAYA GUADALUPE CENTRO DE SALUD</value>
+					</Data>
+					<Data name="NUM">
+						<value>33</value>
+					</Data>
+				</ExtendedData>
+				<Point>
+					<coordinates>-100.192062,25.726056,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>C.S.U. LERMAS</name>
+				<description><![CDATA[<strong>DIRECCION:</strong> AVE. TACUBAYA 105<br>
+COL. LOS LERMAS<br>
+<strong>RESPONSABLE:</strong> N.D.<br>
+<strong>TEL:</strong> 82823604 <br>
+<strong>J.S.</strong> 4]]></description>
+				<styleUrl>#icon-1899-DB44361</styleUrl>
+				<ExtendedData>
+					<Data name="descripción">
+					</Data>
+					<Data name="NAME">
+						<value>21</value>
+					</Data>
+					<Data name="LAYER">
+						<value>C.S.U. LERMAS AV TACUBAYA 105 LOS LERMAS GUADALUPE CENTRO DE SALUD</value>
+					</Data>
+					<Data name="NUM">
+						<value>32</value>
+					</Data>
+				</ExtendedData>
+				<Point>
+					<coordinates>-100.200809,25.677128,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>C.S. SAN RAFAEL</name>
+				<description><![CDATA[<strong>DIRECCION:</strong> MARIA MEDINA 101
+<br>
+COL. SAN RAFAEL
+<br>
+<strong>RESPONSABLE:</strong> N.D.
+<br>
+<strong>TEL:</strong> N.D.
+ <br>
+<strong>J.S.</strong> 4]]></description>
+				<styleUrl>#icon-1899-DB44361</styleUrl>
+				<ExtendedData>
+					<Data name="descripción">
+					</Data>
+					<Data name="NAME">
+						<value>1</value>
+					</Data>
+					<Data name="LAYER">
+						<value>C.S. SAN RAFAEL MARÍA MEDINA 101 E HIDALGO, COL. SAN RAFAEL GUADALUPE CENTRO DE SALUD</value>
+					</Data>
+					<Data name="NUM">
+						<value>34</value>
+					</Data>
+				</ExtendedData>
+				<Point>
+					<coordinates>-100.220396,25.693596,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>C.S.U. 20 DE NOVIEMBRE</name>
+				<description><![CDATA[<strong>DIRECCION:</strong> AVE. LAS TORRES S/N ESQ. CON 20 DE NOVIEMBRE
+<br>
+COL. 20 DE NOVIEMBRE
+<br>
+<strong>RESPONSABLE:</strong> N.D.
+<br>
+<strong>TEL:</strong> 83370987
+ <br>
+<strong>J.S.</strong> 4]]></description>
+				<styleUrl>#icon-1899-DB44361</styleUrl>
+				<ExtendedData>
+					<Data name="descripción">
+					</Data>
+					<Data name="NAME">
+						<value>2</value>
+					</Data>
+					<Data name="LAYER">
+						<value>C.S.U. 20 DE NOVIEMBRE AVE. 20 DE NOVIEMBRE COL. 20 DE NOVIEMBRE GUADALUPE CENTRO DE SALUD</value>
+					</Data>
+					<Data name="NUM">
+						<value>35</value>
+					</Data>
+				</ExtendedData>
+				<Point>
+					<coordinates>-100.226854,25.675342,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>C.S.U. 21 DE ENERO</name>
+				<description><![CDATA[<strong>DIRECCION:</strong> 6 DE NOVIEMBRE 281
+<br>
+COL. 21 DE ENERO
+<br>
+<strong>RESPONSABLE:</strong> N.D.
+<br>
+<strong>TEL:</strong> N.D.
+ <br>
+<strong>J.S.</strong> 4]]></description>
+				<styleUrl>#icon-1899-DB44361</styleUrl>
+				<ExtendedData>
+					<Data name="descripción">
+					</Data>
+					<Data name="NAME">
+						<value>3</value>
+					</Data>
+					<Data name="LAYER">
+						<value>C.S.U. 21 DE ENERO 6 DE NOVIEMBRE 281, COL. 21 DE ENERO GUADALUPE CENTRO DE SALUD</value>
+					</Data>
+					<Data name="NUM">
+						<value>36</value>
+					</Data>
+				</ExtendedData>
+				<Point>
+					<coordinates>-100.215426,25.687114,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>C.S.U. ACAPULCO</name>
+				<description><![CDATA[<strong>DIRECCION:</strong> AVE. COSTERA ENTRE ELOY CAVAZOS Y ACAPULCO
+<br>
+COL. ACAPULCO
+<br>
+<strong>RESPONSABLE:</strong> N.D.
+<br>
+<strong>TEL:</strong> 10936793
+ <br>
+<strong>J.S.</strong> 4]]></description>
+				<styleUrl>#icon-1899-DB44361</styleUrl>
+				<ExtendedData>
+					<Data name="descripción">
+					</Data>
+					<Data name="NAME">
+						<value>4</value>
+					</Data>
+					<Data name="LAYER">
+						<value>C.S.U. ACAPULCO AV COSTERA Y ELOY CAVAZOS ACAPULCO GUADALUPE CENTRO DE SALUD</value>
+					</Data>
+					<Data name="NUM">
+						<value>37</value>
+					</Data>
+				</ExtendedData>
+				<Point>
+					<coordinates>-100.202279,25.65312,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark id="1.3.1">
+				<name>C.S.U. SALVADOR CHAVEZ</name>
+				<address>10 de Febrero 402, Salvador Chávez Mora, 67286 Jardines de la Silla, N.L., México</address>
+				<snippet>10 de Febrero 402, Salvador Chávez Mora, 67286 Jardines de la Silla, N.L., México</snippet>
+				<description><![CDATA[<!DOCTYPE html><html lang="es-419"> <head> <style>body{font-family:Roboto,Arial,sans-serif}.DiVP2e{background-color:#fafafa;border-radius:2px;bottom:2px;left:2px;position:absolute;right:2px;top:2px}.X6ZKdd{font-size:18px;font-weight:bold;line-height:25px;margin-bottom:5px}.gr0Qde{font-size:14px;font-weight:300;line-height:18px;margin-bottom:5px}.Nqfqlb{font-size:16px;line-height:normal;color:#e7711b;margin-right:5px}.review-count{font-size:12px;line-height:normal}.OTInGb,.hSSRhf,.xDQDq{display:inline-block;background-image:url('//maps.gstatic.com/tactile/omnibox/star-20130618.png');width:13px;height:13px;background-size:36px 12px}.hSSRhf{background-position:-13px 0}.xDQDq{background-position:-25px 0}.Qfo35d{font-size:12px;margin-bottom:2px}.gs8uRd{font-size:14px;margin-bottom:2px}.JByhjc{font-size:14px;margin-bottom:2px;margin-top:5px}.iWlmL{font-size:14px;margin-bottom:2px;margin-top:5px}.OYCkv{font-size:14px;margin-bottom:2px;margin-top:5px}.VUd1Hd{font-size:14px;margin-bottom:2px}.jK1Lre{font-size:14px;padding:6px 15px 2px;margin-bottom:5px}.PQWkDb{overflow:hidden;display:inline-block;vertical-align:top;position:relative}.giiMnc{font-size:10px;font-style:italic}.ncIaof{font-weight:600}</style> <meta content="width=device-width, initial-scale=1" name="viewport"> </head> <body> <div class="DiVP2e"> <div class="tg0Ii"> <div class="PQWkDb"> <img alt="CSU Salvador Chávez" src="https://www.google.com/earth/rpc/images/cleardot.gif" width="100%"> </div> </div> <br> <div> <span class="X6ZKdd">CSU Salvador Chávez</span>  -  <span class="Qfo35d">Clínica ambulatoria</span> </div> <div class="gr0Qde"> <div> 10 de Febrero 402 </div><div> Salvador Chávez Mora </div><div> 67286 Jardines de la Silla, N.L. </div><div> México </div> </div> <div class="JByhjc">   </div>  <div class="OYCkv"></div> <br>  <div class="VUd1Hd">Abierto hasta 15:30</div> <div class="kZ1n7c"> <a href="#" target="_blank">  </a> </div> <br>  <span class="reviews"> <a href="#" target="_blank"> <span class="review-count"></span></a> </span> <div class="Hb2bEc">  </div> </div> </body> </html>]]></description>
+				<styleUrl>#listing_B0</styleUrl>
+				<ExtendedData>
+					<Data name="placepageUri">
+						<value>https://www.google.com/earth/rpc/entity?lat=25.625001&amp;lng=-100.18112184999998&amp;fid=0x8662c1655064c541:0x568d1207f2ca9a41&amp;q=CSU Salvador Chávez, 10 de Febrero 402, Salvador Chávez Mora, 67286 Jardines de la Silla, N.L., México&amp;hl=es-419&amp;gl=us&amp;client=earth-client&amp;cv=7.3.2.5487&amp;useragent=GoogleEarth/7.3.2.5487(Windows;Microsoft Windows (6.2.9200.0);es-419;kml:2.2;client:Pro;type:default)</value>
+					</Data>
+				</ExtendedData>
+				<Point>
+					<coordinates>-100.1809765,25.6252358,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark id="1.2.1">
+				<name>C.S.U. MONTE KRISTAL</name>
+				<address>Monte Laurel 422, Monte Kristal, 67280 Arboledas de San Roque, N.L., México</address>
+				<phoneNumber>+52 81 8367 0558</phoneNumber>
+				<snippet>Monte Laurel 422, Monte Kristal, 67280 Arboledas de San Roque, N.L., México</snippet>
+				<description><![CDATA[<!DOCTYPE html><html lang="es-419"> <head> <style>body{font-family:Roboto,Arial,sans-serif}.DiVP2e{background-color:#fafafa;border-radius:2px;bottom:2px;left:2px;position:absolute;right:2px;top:2px}.X6ZKdd{font-size:18px;font-weight:bold;line-height:25px;margin-bottom:5px}.gr0Qde{font-size:14px;font-weight:300;line-height:18px;margin-bottom:5px}.Nqfqlb{font-size:16px;line-height:normal;color:#e7711b;margin-right:5px}.review-count{font-size:12px;line-height:normal}.OTInGb,.hSSRhf,.xDQDq{display:inline-block;background-image:url('//maps.gstatic.com/tactile/omnibox/star-20130618.png');width:13px;height:13px;background-size:36px 12px}.hSSRhf{background-position:-13px 0}.xDQDq{background-position:-25px 0}.Qfo35d{font-size:12px;margin-bottom:2px}.gs8uRd{font-size:14px;margin-bottom:2px}.JByhjc{font-size:14px;margin-bottom:2px;margin-top:5px}.iWlmL{font-size:14px;margin-bottom:2px;margin-top:5px}.OYCkv{font-size:14px;margin-bottom:2px;margin-top:5px}.VUd1Hd{font-size:14px;margin-bottom:2px}.jK1Lre{font-size:14px;padding:6px 15px 2px;margin-bottom:5px}.PQWkDb{overflow:hidden;display:inline-block;vertical-align:top;position:relative}.giiMnc{font-size:10px;font-style:italic}.ncIaof{font-weight:600}</style> <meta content="width=device-width, initial-scale=1" name="viewport"> </head> <body> <div class="DiVP2e"> <div class="tg0Ii"> <div class="PQWkDb"> <img alt="CENTRO DE SALUD MONTE KRISTAL" src="https://www.google.com/earth/rpc/images/cleardot.gif" width="100%"> </div> </div> <br> <div> <span class="X6ZKdd">CENTRO DE SALUD MONTE KRISTAL</span>  -  <span class="Qfo35d">Hospital</span> </div> <div class="gr0Qde"> <div> Monte Laurel 422 </div><div> Monte Kristal </div><div> 67280 Arboledas de San Roque, N.L. </div><div> México </div> </div> <div class="JByhjc">   </div>  <div class="OYCkv"></div> <br> <div class="gs8uRd"> +52 81 8367 0558 </div> <div class="VUd1Hd"></div> <div class="kZ1n7c"> <a href="/url?q=http://www.saludnl.gob.mx/&amp;sa=U&amp;ved=0ahUKEwjdhoW-sKvcAhVREVAKHQK5DegQ61gIDigJMAA&amp;usg=AOvVaw1txN-EV5EwajxaldRi9V93" target="_blank"> saludnl.gob.mx </a> </div> <br>  <span class="Nqfqlb">4.0</span>    <span class="OTInGb"></span>    <span class="OTInGb"></span>    <span class="OTInGb"></span>    <span class="OTInGb"></span>  <span class="xDQDq"></span>     <span class="reviews"> <a href="http://www.google.com/search?q=CENTRO+DE+SALUD+MONTE+KRISTAL,+Monte+Laurel+422,+Monte+Kristal,+67280+Arboledas+de+San+Roque,+N.L.,+M%C3%A9xico&amp;ludocid=12767793740626065430#lrd=0x8662c396a00248fb:0xb13050c2ab78f816,1" target="_blank"> <span class="review-count">1 comentario</span></a> </span> <div class="Hb2bEc">  </div> </div> </body> </html>]]></description>
+				<styleUrl>#listing_A9</styleUrl>
+				<ExtendedData>
+					<Data name="placepageUri">
+						<value>https://www.google.com/earth/rpc/entity?lat=25.612614800000003&amp;lng=-100.14226629999999&amp;fid=0x8662c396a00248fb:0xb13050c2ab78f816&amp;q=CENTRO DE SALUD MONTE KRISTAL, Monte Laurel 422, Monte Kristal, 67280 Arboledas de San Roque, N.L., México&amp;hl=es-419&amp;gl=us&amp;client=earth-client&amp;cv=7.3.2.5487&amp;useragent=GoogleEarth/7.3.2.5487(Windows;Microsoft Windows (6.2.9200.0);es-419;kml:2.2;client:Pro;type:default)</value>
+					</Data>
+				</ExtendedData>
+				<MultiGeometry>
+					<Point>
+						<coordinates>-100.1422663,25.6126148,0</coordinates>
+					</Point>
+					<LinearRing>
+						<coordinates>
+							-100.1462117433736,25.60965571746979,0 -100.1462117433736,25.61557388253021,0 -100.1383208566264,25.61557388253021,0 -100.1383208566264,25.60965571746979,0 -100.1462117433736,25.60965571746979,0 
+						</coordinates>
+					</LinearRing>
+				</MultiGeometry>
+			</Placemark>
+			<Placemark>
+				<name>C.S.U. LOS REYES</name>
+				<description><![CDATA[<strong>DIRECCION: LUIS EDUARDO III S/N</strong><br>
+COL. LOS REYES<br>
+<strong>RESPONSABLE:</strong> N.D.<br>
+<strong>TEL:</strong> 88613272 <br>
+<strong>J.S.</strong> 4]]></description>
+				<styleUrl>#icon-1899-DB44361</styleUrl>
+				<ExtendedData>
+					<Data name="descripción">
+					</Data>
+					<Data name="NAME">
+						<value>CENTRO DE SALUD LOS REYES</value>
+					</Data>
+					<Data name="LAYER">
+						<value>CENTRO DE SALUD LOS REYES</value>
+					</Data>
+					<Data name="NUM">
+						<value>12</value>
+					</Data>
+				</ExtendedData>
+				<Point>
+					<coordinates>-100.145619,25.644385,0</coordinates>
+				</Point>
+			</Placemark>
+		</Folder>
+		<Placemark>
+			<name>C.S.U. BENITO JUAREZ</name>
+			<description><![CDATA[<strong>DIRECCION:</strong> TREVIÑO S/N ESQUINA CON SANTOS DEGOLLADO<br>
+COL. INFONAVIT JUAREZ<br>
+<strong>RESPONSABLE:</strong> N.D.<br>
+<strong>TEL:</strong>  N.D<br>
+<strong>J.S.</strong> N.D.]]></description>
+			<styleUrl>#icon-1899-DB44361</styleUrl>
+			<ExtendedData>
+				<Data name="descripción">
+				</Data>
+				<Data name="NAME">
+					<value>CENTRO DE SALUD BENITO JUÁREZ</value>
+				</Data>
+				<Data name="LAYER">
+					<value>CENTRO DE SALUD BENITO JUÁREZ</value>
+				</Data>
+				<Data name="NUM">
+					<value>11</value>
+				</Data>
+			</ExtendedData>
+			<Point>
+				<coordinates>-100.097529,25.651048,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<description><![CDATA[descripción: <br>NAME: UNIDAD MEDICA GUADALUPE S.A.de C.V.<br>LAYER: UNIDAD MEDICA GUADALUPE S.A.de C.V.<br>NUM: 14]]></description>
+			<styleUrl>#icon-1899-DB44360</styleUrl>
+			<ExtendedData>
+				<Data name="descripción">
+				</Data>
+				<Data name="NAME">
+					<value>UNIDAD MEDICA GUADALUPE S.A.de C.V.</value>
+				</Data>
+				<Data name="LAYER">
+					<value>UNIDAD MEDICA GUADALUPE S.A.de C.V.</value>
+				</Data>
+				<Data name="NUM">
+					<value>14</value>
+				</Data>
+			</ExtendedData>
+			<Point>
+				<coordinates>-100.092649,25.643408,0</coordinates>
+			</Point>
+		</Placemark>
+	</Folder>
+</Document>
+</kml>
